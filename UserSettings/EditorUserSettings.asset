@@ -32,6 +32,7 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-8:
       value: 5a08575f5207595a0f5d59741173094444164f7d7d2a23317c7a4465bbe1646d
       flags: 0
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-9:
 <<<<<<< HEAD
       value: 55570503570c5e59095b5e27447b0d4446154a7875717f347e794461e3e56d3b
@@ -39,6 +40,13 @@ EditorUserSettings:
 =======
       value: 5657060356530c0d0b5d5a2344220d4446164b2e2d2d76642c7e1835b4b6636d
 >>>>>>> cadf2a6 (potentielle betise)
+=======
+    RecentlyUsedSceneGuid-1:
+      value: 5104020750060a0b0c580d2648210a44144f1b2b757b74312b2c1f67b7b8636d
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 5657060356530c0d0b5d5a2344220d4446164b2e2d2d76642c7e1835b4b6636d
+>>>>>>> cbddfbd (Map avec le bro Jordan)
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
