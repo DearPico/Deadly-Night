@@ -49,6 +49,7 @@ MonoBehaviour:
 =======
 >>>>>>> cb809dc (montagne)
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Scene
 >>>>>>> ad9b7e1 (Blocking part1)
 =======
@@ -63,7 +64,13 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+  m_Title: Project
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -226,6 +233,7 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 103
 =======
   controlID: 91
@@ -258,7 +266,13 @@ MonoBehaviour:
   vertical: 0
   controlID: 41
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+  controlID: 91
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -307,6 +321,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 49
 =======
   controlID: 38
@@ -339,7 +354,13 @@ MonoBehaviour:
   vertical: 1
   controlID: 42
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+  controlID: 38
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -383,6 +404,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 50
 =======
   controlID: 39
@@ -414,7 +436,13 @@ MonoBehaviour:
 =======
   controlID: 43
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+  controlID: 39
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -510,6 +538,7 @@ MonoBehaviour:
 =======
     width: 981.3334
     height: 488.66666
+<<<<<<< HEAD
 >>>>>>> cbddfbd (Map avec le bro Jordan)
 =======
 =======
@@ -545,7 +574,12 @@ MonoBehaviour:
     width: 1007.33325
     height: 773.3333
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
@@ -811,12 +845,16 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 24
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 163
     height: 777
 =======
+=======
+    y: 24
+>>>>>>> cbddfbd (Map avec le bro Jordan)
     width: 321
     height: 462.66666
 >>>>>>> cbddfbd (Map avec le bro Jordan)
@@ -873,6 +911,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 66f9ffff68f9ffff6af9ffff16fbffff1efbffff5eae0000
 =======
       m_ExpandedIDs: f8f6ffff20fbffff
@@ -895,7 +934,13 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: aa8db6ffae54b7ff6899c4ff9e652200dc66220038692200d8692200ee692200f46b22002e6f2200c8702200dc772200a47a2200
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+      m_ExpandedIDs: f8f6ffff20fbffff
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -949,11 +994,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 165
     y: 24
     width: 1381
     height: 777
 =======
+=======
+>>>>>>> cbddfbd (Map avec le bro Jordan)
     x: 323
     y: 24
     width: 979.3334
@@ -1951,6 +1999,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 827
     width: 1546
     height: 104
@@ -1989,7 +2038,15 @@ MonoBehaviour:
     width: 1291.6666
     height: 168.66669
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+    y: 512.6666
+    width: 1302.3334
+    height: 298.6667
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2012,7 +2069,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Assets/VEGETAUX/Arbre (parties)
+=======
+    - Assets/Scenes
+>>>>>>> cbddfbd (Map avec le bro Jordan)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2022,13 +2083,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Assets/VEGETAUX/Arbre (parties)
   m_LastFoldersGridSize: -1
 <<<<<<< HEAD
   m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
 =======
   m_LastProjectPath: C:\Users\yumej\Documents\GitKraken\Deadly-Night
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -2039,6 +2109,7 @@ MonoBehaviour:
     m_LastClickedID: 43760
     m_ExpandedIDs: 000000001cb60000
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2083,7 +2154,15 @@ MonoBehaviour:
     m_LastClickedID: 2253720
     m_ExpandedIDs: 000000002eca000030ca000032ca0000
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+    m_SelectedIDs: 6ea60000
+    m_LastClickedID: 42606
+    m_ExpandedIDs: 00000000a4a40000
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2121,6 +2200,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000070c60000
 =======
     m_ExpandedIDs: 00000000a4a40000
@@ -2143,7 +2223,13 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000002eca000030ca000032ca0000
 >>>>>>> 703c733 (Levelpart1)
+<<<<<<< HEAD
 >>>>>>> origin/dev
+=======
+=======
+    m_ExpandedIDs: 00000000a4a40000
+>>>>>>> cbddfbd (Map avec le bro Jordan)
+>>>>>>> 3a3d3cc (Map avec le bro Jordan)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2172,6 +2258,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 0
 <<<<<<< HEAD
 =======
@@ -2184,6 +2271,9 @@ MonoBehaviour:
 =======
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> 703c733 (Levelpart1)
+=======
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> cbddfbd (Map avec le bro Jordan)
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2242,11 +2332,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1548
     y: 24
     width: 372
     height: 907
 =======
+=======
+>>>>>>> cbddfbd (Map avec le bro Jordan)
     x: 1304.3334
     y: 24
     width: 402.33325
