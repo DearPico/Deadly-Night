@@ -94,7 +94,11 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cylinder",
+<<<<<<< HEAD
                 "value": "{\"m_Value\":{\"x\":-2.6930809020996095,\"y\":17.32550811767578,\"z\":-2.5590667724609377}}"
+=======
+                "value": "{\"m_Value\":{\"x\":-2.793111801147461,\"y\":7.959640979766846,\"z\":-1.2589768171310425}}"
+>>>>>>> 3c36f61 (Blocking part3)
             },
             {
                 "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
