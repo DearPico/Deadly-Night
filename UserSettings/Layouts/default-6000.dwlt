@@ -47,6 +47,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 1024
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cb809dc (montagne)
   m_ShowMode: 4
@@ -81,7 +82,14 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+  m_ShowMode: 4
+  m_Title: Scene
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,6 +128,7 @@ MonoBehaviour:
 =======
     width: 1706.6666
     height: 1024
+<<<<<<< HEAD
 >>>>>>> ad9b7e1 (Blocking part1)
 =======
 >>>>>>> cb809dc (montagne)
@@ -140,7 +149,12 @@ MonoBehaviour:
     width: 1920
     height: 989
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -192,11 +206,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 969
     width: 1920
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ad9b7e1 (Blocking part1)
     y: 1004
     width: 1706.6666
 >>>>>>> ad9b7e1 (Blocking part1)
@@ -253,6 +270,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 933
 <<<<<<< HEAD
@@ -304,7 +322,18 @@ MonoBehaviour:
 =======
   controlID: 91
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+<<<<<<< HEAD
 >>>>>>> 3a3d3cc (Map avec le bro Jordan)
+=======
+=======
+    width: 1706.6666
+    height: 968
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 38
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -333,6 +362,7 @@ MonoBehaviour:
   vertical: 1
   controlID: 38
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,7 +427,18 @@ MonoBehaviour:
 =======
   controlID: 38
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+<<<<<<< HEAD
 >>>>>>> 3a3d3cc (Map avec le bro Jordan)
+=======
+=======
+    width: 1458.6666
+    height: 968
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 39
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -426,6 +467,7 @@ MonoBehaviour:
   vertical: 0
   controlID: 39
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,7 +526,18 @@ MonoBehaviour:
 =======
   controlID: 39
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+<<<<<<< HEAD
 >>>>>>> 3a3d3cc (Map avec le bro Jordan)
+=======
+=======
+    width: 1458.6666
+    height: 770
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 40
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -507,6 +560,7 @@ MonoBehaviour:
     width: 362
     height: 680
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -546,7 +600,14 @@ MonoBehaviour:
     width: 362
     height: 680
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    width: 323.33334
+    height: 770
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
@@ -575,6 +636,7 @@ MonoBehaviour:
     width: 1104
     height: 680
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -639,7 +701,16 @@ MonoBehaviour:
     width: 1104
     height: 680
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    x: 323.33334
+    y: 0
+    width: 1135.3333
+    height: 770
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
@@ -658,7 +729,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -669,6 +740,7 @@ MonoBehaviour:
     width: 1466
     height: 253
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,20 +800,25 @@ MonoBehaviour:
   m_ActualView: {fileID: 16}
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ad9b7e1 (Blocking part1)
     y: 770
     width: 1458.6666
     height: 198
   m_MinSize: {x: 101, y: 126}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 12}
+<<<<<<< HEAD
 >>>>>>> ad9b7e1 (Blocking part1)
 =======
 >>>>>>> cb809dc (montagne)
+=======
+>>>>>>> ad9b7e1 (Blocking part1)
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -763,6 +840,7 @@ MonoBehaviour:
     width: 454
     height: 933
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -822,7 +900,16 @@ MonoBehaviour:
     width: 454
     height: 933
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    x: 1458.6666
+    y: 0
+    width: 248
+    height: 968
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
@@ -856,6 +943,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 753
     width: 1819
     height: 233
@@ -884,6 +972,11 @@ MonoBehaviour:
     width: 1291.6666
     height: 372.6667
 >>>>>>> 703c733 (Levelpart1)
+=======
+    y: 794
+    width: 1457.6666
+    height: 172
+>>>>>>> ad9b7e1 (Blocking part1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -927,6 +1020,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     y: 24
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 163
@@ -973,7 +1067,14 @@ MonoBehaviour:
     width: 361
     height: 654
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    width: 322.33334
+    height: 744
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -993,6 +1094,7 @@ MonoBehaviour:
 <<<<<<< HEAD
       m_ExpandedIDs: 1efbffff
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1035,7 +1137,13 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 1efbffff
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+      m_ExpandedIDs: 1efbffff8aaa000060ac000018ad0000a8ad0000bead0000
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1083,6 +1191,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1149,7 +1258,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    x: 324.33334
+    y: 24
+    width: 1133.3333
+    height: 744
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1733,6 +1851,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -164.86626, y: 6.9725037, z: 6.8183384}
     speed: 2
     m_Value: {x: -164.86626, y: 6.9725037, z: 6.8183384}
@@ -1772,6 +1891,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 72.721054, y: -159.93402, z: -110.0561}
 >>>>>>> a438430 (Hugo accès branche)
+=======
+    m_Target: {x: 103.032486, y: -66.55315, z: -103.1628}
+    speed: 2
+    m_Value: {x: 103.032486, y: -66.55315, z: -103.1628}
+>>>>>>> ad9b7e1 (Blocking part1)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1820,6 +1944,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Target: {x: -0.016993178, y: 0.93727064, z: -0.34511772, w: -0.046150092}
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1893,6 +2018,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 192.97488
 >>>>>>> a438430 (Hugo accès branche)
+=======
+    m_Target: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
+    speed: 2
+    m_Value: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
+  m_Size:
+    m_Target: 136.09264
+    speed: 2
+    m_Value: 136.09264
+>>>>>>> ad9b7e1 (Blocking part1)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2140,6 +2274,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 827
     width: 1546
     height: 104
@@ -2194,7 +2329,15 @@ MonoBehaviour:
     width: 1465
     height: 227
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    y: 849.3334
+    width: 1228.3334
+    height: 171.33331
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2219,6 +2362,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Assets/VEGETAUX/Arbre (parties)
 =======
     - Assets/Scenes
@@ -2226,6 +2370,9 @@ MonoBehaviour:
 =======
     - Assets
 >>>>>>> a438430 (Hugo accès branche)
+=======
+    - Assets
+>>>>>>> ad9b7e1 (Blocking part1)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -2235,6 +2382,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Assets/VEGETAUX/Arbre (parties)
@@ -2254,7 +2402,15 @@ MonoBehaviour:
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+<<<<<<< HEAD
 >>>>>>> 3a3d3cc (Map avec le bro Jordan)
+=======
+=======
+  - Assets
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\yumej\Documents\GitKraken\Deadly-Night
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -2265,6 +2421,7 @@ MonoBehaviour:
     m_LastClickedID: 43760
     m_ExpandedIDs: 000000001cb60000
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2327,7 +2484,15 @@ MonoBehaviour:
     m_LastClickedID: 43766
     m_ExpandedIDs: 00000000f6aa0000
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    m_SelectedIDs: f2aa0000
+    m_LastClickedID: 43762
+    m_ExpandedIDs: 00000000a2b50000
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2359,6 +2524,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_ExpandedIDs: 000000001cb60000
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2401,7 +2567,13 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000f6aa0000
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    m_ExpandedIDs: 00000000a2b50000
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2427,6 +2599,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
@@ -2435,6 +2608,8 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> ad9b7e1 (Blocking part1)
     m_SelectedInstanceIDs: 74aa0000
     m_LastClickedInstanceID: 43636
     m_HadKeyboardFocusLastEvent: 1
@@ -2510,6 +2685,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1548
     y: 24
     width: 372
@@ -2567,7 +2743,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> a438430 (Hugo accès branche)
+<<<<<<< HEAD
 >>>>>>> 9bc0865 (Hugo accès branche)
+=======
+=======
+    x: 1459.6666
+    y: 24
+    width: 247
+    height: 942
+>>>>>>> ad9b7e1 (Blocking part1)
+>>>>>>> d32c249 (Blocking part1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
