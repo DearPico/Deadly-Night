@@ -20,10 +20,14 @@ MonoBehaviour:
     height: 989
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Scene
 =======
   m_Title: Project
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+  m_Title: Scene
+>>>>>>> a438430 (Hugo accès branche)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -148,7 +152,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1547
+=======
+    width: 1466
+>>>>>>> a438430 (Hugo accès branche)
     height: 933
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -178,8 +186,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1547
     height: 803
+=======
+    width: 1466
+    height: 680
+>>>>>>> a438430 (Hugo accès branche)
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -206,8 +219,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 164
     height: 803
+=======
+    width: 362
+    height: 680
+>>>>>>> a438430 (Hugo accès branche)
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
@@ -230,6 +248,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 164
     y: 0
 <<<<<<< HEAD
@@ -239,6 +258,12 @@ MonoBehaviour:
     width: 981.3334
     height: 488.66666
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    x: 362
+    y: 0
+    width: 1104
+    height: 680
+>>>>>>> a438430 (Hugo accès branche)
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
@@ -265,6 +290,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 680
     width: 1466
     height: 253
@@ -282,6 +308,11 @@ MonoBehaviour:
     width: 1547
     height: 130
 >>>>>>> 6ba163e (blocking barage + zone 1)
+=======
+    y: 680
+    width: 1466
+    height: 253
+>>>>>>> a438430 (Hugo accès branche)
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 16}
@@ -305,6 +336,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1547
     y: 0
 <<<<<<< HEAD
@@ -316,6 +348,11 @@ MonoBehaviour:
 =======
     width: 373
 >>>>>>> 6ba163e (blocking barage + zone 1)
+=======
+    x: 1466
+    y: 0
+    width: 454
+>>>>>>> a438430 (Hugo accès branche)
     height: 933
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
@@ -382,6 +419,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 24
 <<<<<<< HEAD
     width: 163
@@ -390,6 +428,11 @@ MonoBehaviour:
     width: 321
     height: 462.66666
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    y: 79
+    width: 361
+    height: 654
+>>>>>>> a438430 (Hugo accès branche)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -404,13 +447,17 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 1aaa0000
       m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_ExpandedIDs: 66f9ffff68f9ffff6af9ffff16fbffff1efbffff5eae0000
 =======
       m_ExpandedIDs: f8f6ffff20fbffff
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+      m_ExpandedIDs: 1efbffff
+>>>>>>> a438430 (Hugo accès branche)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,6 +504,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 165
     y: 24
     width: 1381
@@ -467,6 +515,12 @@ MonoBehaviour:
     width: 979.3334
     height: 462.66666
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    x: 362
+    y: 79
+    width: 1102
+    height: 654
+>>>>>>> a438430 (Hugo accès branche)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1035,9 +1089,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -164.86626, y: 6.9725037, z: 6.8183384}
     speed: 2
     m_Value: {x: -164.86626, y: 6.9725037, z: 6.8183384}
+=======
+    m_Target: {x: 72.721054, y: -159.93402, z: -110.0561}
+    speed: 2
+    m_Value: {x: 72.721054, y: -159.93402, z: -110.0561}
+>>>>>>> a438430 (Hugo accès branche)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1083,6 +1143,7 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.11449744, y: -0.6193414, z: 0.09184666, w: 0.77134514}
     speed: 2
     m_Value: {x: -0.11449744, y: 0.6193414, z: -0.09184666, w: -0.77134514}
@@ -1090,6 +1151,15 @@ MonoBehaviour:
     m_Target: 67.47838
     speed: 2
     m_Value: 67.47838
+=======
+    m_Target: {x: 0.010506383, y: 0.90963984, z: -0.4147681, w: 0.02301606}
+    speed: 2
+    m_Value: {x: 0.010506383, y: 0.90963984, z: -0.4147681, w: 0.023016062}
+  m_Size:
+    m_Target: 192.97488
+    speed: 2
+    m_Value: 192.97488
+>>>>>>> a438430 (Hugo accès branche)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1180,6 +1250,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -326.44446
     m_HBaseRangeMax: 326.44446
     m_VBaseRangeMin: -168.55557
@@ -1187,10 +1258,13 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> 6ba163e (blocking barage + zone 1)
+=======
+>>>>>>> a438430 (Hugo accès branche)
     m_HBaseRangeMin: -489.6667
     m_HBaseRangeMax: 489.6667
     m_VBaseRangeMin: -220.83333
     m_VBaseRangeMax: 220.83333
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a438430 (Hugo accès branche)
 =======
@@ -1201,6 +1275,8 @@ MonoBehaviour:
 >>>>>>> 3c36f61 (Blocking part3)
 =======
 >>>>>>> 6ba163e (blocking barage + zone 1)
+=======
+>>>>>>> a438430 (Hugo accès branche)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1237,6 +1313,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1469, y: 790}
 =======
   m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
@@ -1247,6 +1324,9 @@ MonoBehaviour:
 =======
   m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
 >>>>>>> 6ba163e (blocking barage + zone 1)
+=======
+  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
+>>>>>>> a438430 (Hugo accès branche)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1276,6 +1356,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 827
     width: 1546
     height: 104
@@ -1284,6 +1365,11 @@ MonoBehaviour:
     width: 1302.3334
     height: 298.6667
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    y: 759
+    width: 1465
+    height: 227
+>>>>>>> a438430 (Hugo accès branche)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1306,7 +1392,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1316,13 +1402,14 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: 70c60000
     m_LastClickedID: 50800
@@ -1332,6 +1419,11 @@ MonoBehaviour:
     m_LastClickedID: 42606
     m_ExpandedIDs: 00000000a4a40000
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    m_SelectedIDs: f6aa0000
+    m_LastClickedID: 43766
+    m_ExpandedIDs: 00000000f6aa0000
+>>>>>>> a438430 (Hugo accès branche)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1361,10 +1453,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000070c60000
 =======
     m_ExpandedIDs: 00000000a4a40000
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    m_ExpandedIDs: 00000000f6aa0000
+>>>>>>> a438430 (Hugo accès branche)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1392,7 +1488,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1444,6 +1540,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1548
     y: 24
     width: 372
@@ -1454,6 +1551,12 @@ MonoBehaviour:
     width: 402.33325
     height: 787.3333
 >>>>>>> cbddfbd (Map avec le bro Jordan)
+=======
+    x: 1466
+    y: 79
+    width: 453
+    height: 907
+>>>>>>> a438430 (Hugo accès branche)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
