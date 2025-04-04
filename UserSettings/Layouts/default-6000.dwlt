@@ -15,118 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 1920
-    height: 989
-  m_ShowMode: 4
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Title: Scene
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 43
-    width: 1920
-    height: 989
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_ShowMode: 4
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_Title: Scene
-=======
-  m_Title: Project
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-  m_Title: Scene
->>>>>>> a438430 (Hugo accès branche)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 42.666668
-    width: 1706.6667
-    height: 1024
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cb809dc (montagne)
-  m_ShowMode: 4
-<<<<<<< HEAD
-  m_Title: Scene
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> 3f99dd3 (Blocking part3)
-  m_ShowMode: 4
-  m_Title: Project
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 42.666668
-    width: 1706.6667
-    height: 1024
-=======
-    y: 43
-    width: 1920
-    height: 989
->>>>>>> cb809dc (montagne)
-  m_ShowMode: 4
-  m_Title: Scene
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  m_Title: Project
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    y: 43
-    width: 1920
-    height: 989
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
     y: 42.666668
     width: 1706.6667
     height: 1024
   m_ShowMode: 4
-<<<<<<< HEAD
-<<<<<<< HEAD
   m_Title: Scene
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-  m_ShowMode: 4
-  m_Title: Scene
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-  m_Title: Project
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-  m_Title: Scene
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-  m_Title: Project
->>>>>>> 3c36f61 (Blocking part3)
-=======
-  m_Title: Scene
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -151,82 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 989
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1920
-    height: 989
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     width: 1706.6666
     height: 1024
-<<<<<<< HEAD
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
-=======
-    width: 1920
-    height: 989
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 1706.6666
-    height: 1024
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 1706.6666
-    height: 1024
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    width: 1920
-    height: 989
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    width: 1920
-    height: 989
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    width: 1706.6666
-    height: 1024
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-    width: 1706.6666
-    height: 1024
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -250,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1706.6666
     height: 36
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -271,79 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
-    width: 1920
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 969
-    width: 1920
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ad9b7e1 (Blocking part1)
     y: 1004
     width: 1706.6666
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
-=======
-    y: 969
-    width: 1920
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 1004
-    width: 1706.6666
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 1004
-    width: 1706.6666
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    y: 969
-    width: 1920
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    y: 969
-    width: 1920
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    y: 1004
-    width: 1706.6666
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-    y: 1004
-    width: 1706.6666
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -366,112 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 36
-    width: 1920
-    height: 933
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 89
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1920
-    height: 933
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    width: 1920
-    height: 933
->>>>>>> a438430 (Hugo accès branche)
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 103
-=======
-  controlID: 91
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    width: 1706.6666
-    height: 968
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 38
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
-=======
-    width: 1706.6666
-    height: 968
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 89
->>>>>>> cb809dc (montagne)
-=======
     width: 1706.6666
     height: 968
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 41
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  controlID: 91
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    width: 1706.6666
-    height: 968
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-  controlID: 38
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    width: 1920
-    height: 933
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
-    width: 1706.6666
-    height: 968
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 16192}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 89
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-  controlID: 41
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-  controlID: 103
->>>>>>> 6ba163e (blocking barage + zone 1)
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -492,128 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1547
-    height: 933
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-<<<<<<< HEAD
-  controlID: 38
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1547
-=======
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> cb809dc (montagne)
-    width: 1466
->>>>>>> a438430 (Hugo accès branche)
-    height: 933
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 49
-=======
-  controlID: 38
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    width: 1458.6666
-    height: 968
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 39
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
-=======
-    width: 1292.6666
-    height: 968
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 1466
-    height: 933
->>>>>>> a438430 (Hugo accès branche)
-=======
-    width: 1466
-    height: 933
-=======
-    width: 1292.6666
-    height: 968
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 38
->>>>>>> cb809dc (montagne)
-=======
     width: 1292.6666
     height: 968
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 42
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  controlID: 38
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    width: 1458.6666
-    height: 968
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 39
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 38
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-    width: 1292.6666
-    height: 968
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 42
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-  controlID: 49
->>>>>>> 6ba163e (blocking barage + zone 1)
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -634,116 +166,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1547
-    height: 803
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 39
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 1547
-    height: 803
-=======
-    width: 1466
-    height: 680
->>>>>>> a438430 (Hugo accès branche)
-=======
-    width: 1466
-    height: 680
->>>>>>> a438430 (Hugo accès branche)
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-  controlID: 50
-=======
-  controlID: 39
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    width: 1458.6666
-    height: 770
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 40
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    width: 1466
-    height: 680
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
     width: 1292.6666
-    height: 773.3333
+    height: 734.6667
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 39
->>>>>>> cb809dc (montagne)
-=======
   controlID: 43
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  controlID: 39
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    width: 1458.6666
-    height: 770
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 40
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    width: 1466
-    height: 680
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
-    width: 1292.6666
-    height: 773.3333
-  m_MinSize: {x: 200, y: 50}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-<<<<<<< HEAD
-  controlID: 39
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-  controlID: 43
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-  controlID: 50
->>>>>>> 6ba163e (blocking barage + zone 1)
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -762,96 +190,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 362
-    height: 680
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 164
-    height: 803
-=======
-    width: 362
-    height: 680
->>>>>>> a438430 (Hugo accès branche)
-=======
-    width: 323.33334
-    height: 770
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    width: 362
-    height: 680
->>>>>>> cb809dc (montagne)
-=======
-    width: 362
-    height: 680
-=======
-    width: 362
-    height: 680
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 285.33334
-    height: 569.3333
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 285.33334
-    height: 773.3333
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    width: 362
-    height: 680
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    width: 323.33334
-    height: 770
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    width: 362
-    height: 680
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    width: 285.33334
-    height: 773.3333
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-    width: 285.33334
-    height: 569.3333
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 164
-    height: 803
->>>>>>> 6ba163e (blocking barage + zone 1)
+    width: 286.66666
+    height: 734.6667
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
@@ -874,128 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 164
+    x: 286.66666
     y: 0
-<<<<<<< HEAD
-    width: 1104
-    height: 680
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 164
-    y: 0
-<<<<<<< HEAD
-    width: 1383
-    height: 803
-=======
-    width: 981.3334
-    height: 488.66666
-<<<<<<< HEAD
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    x: 362
-    y: 0
-    width: 1104
-    height: 680
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-=======
-    x: 323.33334
-    y: 0
-    width: 1135.3333
-    height: 770
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    x: 285.33334
-    y: 0
-    width: 1007.33325
-    height: 569.3333
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    x: 285.33334
-    y: 0
-    width: 1007.33325
-    height: 773.3333
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    x: 362
-    y: 0
-    width: 1104
-    height: 680
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    x: 323.33334
-    y: 0
-    width: 1135.3333
-    height: 770
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    x: 285.33334
-    y: 0
-    width: 1007.33325
-    height: 773.3333
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 1383
-    height: 803
->>>>>>> 6ba163e (blocking barage + zone 1)
+    width: 1006
+    height: 734.6667
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 14}
@@ -1020,124 +242,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 680
-    width: 1466
-    height: 253
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> cb809dc (montagne)
-    y: 680
-    width: 1466
-    height: 253
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-=======
-=======
-    y: 680
-    width: 1466
-    height: 253
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 680
-    width: 1466
-    height: 253
->>>>>>> 3c36f61 (Blocking part3)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    y: 569.3333
+    y: 734.6667
     width: 1292.6666
-    height: 398.6667
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 803
-    width: 1547
-    height: 130
->>>>>>> 6ba163e (blocking barage + zone 1)
-=======
-    y: 680
-    width: 1466
-    height: 253
->>>>>>> a438430 (Hugo accès branche)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 773.3333
-    width: 1292.6666
-    height: 194.66669
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    y: 680
-    width: 1466
-    height: 253
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    y: 773.3333
-    width: 1292.6666
-    height: 194.66669
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 803
-    width: 1547
-    height: 130
->>>>>>> 6ba163e (blocking barage + zone 1)
+    height: 233.33331
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
   m_ActualView: {fileID: 16}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ad9b7e1 (Blocking part1)
-    y: 770
-    width: 1458.6666
-    height: 198
-  m_MinSize: {x: 101, y: 126}
-  m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 12}
-<<<<<<< HEAD
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
   m_Panes:
   - {fileID: 16}
   - {fileID: 12}
@@ -1158,124 +268,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1547
-    y: 0
-    width: 373
-    height: 933
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1547
-    y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 403.33325
-    height: 920
-=======
-    width: 454
-=======
-    width: 373
->>>>>>> 6ba163e (blocking barage + zone 1)
-=======
-=======
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> cb809dc (montagne)
-    x: 1466
-    y: 0
-    width: 454
->>>>>>> a438430 (Hugo accès branche)
-    height: 933
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    x: 1458.6666
-    y: 0
-    width: 248
-    height: 968
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
     x: 1292.6666
     y: 0
     width: 414
     height: 968
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    x: 1466
-    y: 0
-    width: 454
-    height: 933
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    x: 1458.6666
-    y: 0
-    width: 248
-    height: 968
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
-    x: 1292.6666
-    y: 0
-    width: 414
-    height: 968
-<<<<<<< HEAD
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
@@ -1299,86 +295,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 753
-    width: 1819
-    height: 233
-=======
-    y: 794
-    width: 1457.6666
-    height: 172
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    y: 567.3334
-    width: 1302.3334
-    height: 298.66666
->>>>>>> cb809dc (montagne)
-=======
-    y: 567.3334
-    width: 1302.3334
-    height: 298.66666
-=======
-    y: 567.3334
-    width: 1302.3334
-    height: 298.66666
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 567.3334
-    width: 1302.3334
-    height: 298.66666
->>>>>>> 3c36f61 (Blocking part3)
-=======
     y: 648
     width: 1291.6666
     height: 372.6667
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 648
-    width: 1291.6666
-    height: 372.6667
->>>>>>> 703c733 (Levelpart1)
-=======
-    y: 794
-    width: 1457.6666
-    height: 172
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    y: 567.3334
-    width: 1302.3334
-    height: 298.66666
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 648
-    width: 1291.6666
-    height: 372.6667
->>>>>>> 703c733 (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 753
-    width: 1819
-    height: 233
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1406,117 +331,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 24
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 361
-    height: 654
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 24
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 163
-    height: 777
-=======
-=======
-    y: 24
->>>>>>> cbddfbd (Map avec le bro Jordan)
-    width: 321
-    height: 462.66666
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    y: 79
-    width: 361
-    height: 654
->>>>>>> a438430 (Hugo accès branche)
-=======
-    width: 322.33334
-    height: 744
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    y: 24
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 361
-    height: 654
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-=======
-=======
-    width: 284.33334
-    height: 543.3333
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 284.33334
-    height: 747.3333
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    y: 79
-    width: 361
-    height: 654
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    width: 322.33334
-    height: 744
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    y: 24
-<<<<<<< HEAD
-    width: 361
-    height: 654
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-=======
-    width: 284.33334
-    height: 543.3333
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    width: 284.33334
-    height: 747.3333
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-    width: 284.33334
-    height: 543.3333
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    width: 163
-    height: 777
->>>>>>> 6ba163e (blocking barage + zone 1)
+    width: 285.66666
+    height: 708.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1533,92 +356,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ExpandedIDs: 1efbffff
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_ExpandedIDs: 66f9ffff68f9ffff6af9ffff16fbffff1efbffff5eae0000
-=======
-      m_ExpandedIDs: f8f6ffff20fbffff
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-      m_ExpandedIDs: 1efbffff
->>>>>>> a438430 (Hugo accès branche)
-=======
-      m_ExpandedIDs: 1efbffff8aaa000060ac000018ad0000a8ad0000bead0000
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-      m_ExpandedIDs: 1efbffff
->>>>>>> cb809dc (montagne)
-=======
-      m_ExpandedIDs: 1efbffff
-=======
-      m_ExpandedIDs: f206feffd441feff2e31ffff1efbffffbcaa0000e0ac0000eead0000b0af0000d0af000014b0000000b10000e0b2000016b3000092b30000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-      m_ExpandedIDs: aa8db6ffae54b7ff6899c4ff9e652200dc66220038692200d8692200ee692200f46b22002e6f2200c8702200dc772200a47a2200
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-      m_ExpandedIDs: f8f6ffff20fbffff
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-      m_ExpandedIDs: 1efbffff
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-      m_ExpandedIDs: 1efbffff8aaa000060ac000018ad0000a8ad0000bead0000
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-      m_ExpandedIDs: 1efbffff
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-      m_ExpandedIDs: 1efbffff
-=======
-      m_ExpandedIDs: f206feffd441feff2e31ffff1efbffffbcaa0000e0ac0000eead0000b0af0000d0af000014b0000000b10000e0b2000016b3000092b30000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-      m_ExpandedIDs: aa8db6ffae54b7ff6899c4ff9e652200dc66220038692200d8692200ee692200f46b22002e6f2200c8702200dc772200a47a2200
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-      m_ExpandedIDs: f206feffd441feff2e31ffff1efbffffbcaa0000e0ac0000eead0000b0af0000d0af000014b0000000b10000e0b2000016b3000092b30000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-      m_ExpandedIDs: 66f9ffff68f9ffff6af9ffff16fbffff1efbffff5eae0000
->>>>>>> 6ba163e (blocking barage + zone 1)
+      m_ExpandedIDs: f0fcfefff2fcfeff9cceffff18fbffff1cfbffff1efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1659,143 +397,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 165
+    x: 287.66666
     y: 24
-    width: 1381
-    height: 777
-=======
-=======
->>>>>>> cbddfbd (Map avec le bro Jordan)
-    x: 323
-    y: 24
-    width: 979.3334
-    height: 462.66666
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
-    x: 362
-    y: 79
-    width: 1102
-    height: 654
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-=======
-    x: 324.33334
-    y: 24
-    width: 1133.3333
-    height: 744
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
->>>>>>> f1c0772 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    x: 363
-    y: 24
-    width: 1102
-    height: 654
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f1c0772 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    x: 286.33334
-    y: 24
-    width: 1005.33325
-    height: 543.3333
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    x: 286.33334
-    y: 24
-    width: 1005.33325
-    height: 747.3333
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    x: 324.33334
-    y: 24
-    width: 1133.3333
-    height: 744
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    x: 363
-    y: 24
-    width: 1102
-    height: 654
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    x: 286.33334
-    y: 24
-    width: 1005.33325
-    height: 747.3333
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    x: 165
-    y: 24
-    width: 1381
-    height: 777
->>>>>>> 6ba163e (blocking barage + zone 1)
+    width: 1004
+    height: 708.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1852,11 +462,11 @@ MonoBehaviour:
       displayed: 0
       id: unity-search-toolbar
       index: 2
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":25.333332061767579},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -24, y: 25.333332}
+      snapOffsetDelta: {x: -24, y: 0}
       snapCorner: 1
       layout: 1
       size: {x: 0, y: 0}
@@ -1908,11 +518,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Light Settings
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1936,11 +546,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Cloth Constraints
       index: 1
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1950,11 +560,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Cloth Collisions
       index: 2
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2006,11 +616,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Occlusion Culling
       index: 3
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2020,11 +630,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Physics Debugger
       index: 4
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2034,11 +644,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Scene Visibility
       index: 5
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2048,11 +658,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 6
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2146,11 +756,11 @@ MonoBehaviour:
       displayed: 0
       id: Brush Attributes
       index: 2
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffset: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2174,11 +784,11 @@ MonoBehaviour:
       displayed: 0
       id: Terrain Tools
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffset: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2188,11 +798,11 @@ MonoBehaviour:
       displayed: 0
       id: Brush Masks
       index: 1
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffset: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2202,11 +812,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Lighting Visualization Colors
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2258,11 +868,11 @@ MonoBehaviour:
       displayed: 0
       id: APV Overlay
       index: 10
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2286,11 +896,11 @@ MonoBehaviour:
       displayed: 0
       id: SceneView/CamerasOverlay
       index: 8
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2300,11 +910,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/PBR Validation Settings
       index: 9
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.333332061767579},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -2314,30 +924,12 @@ MonoBehaviour:
       displayed: 1
       id: AINavigationOverlay
       index: 11
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-109.0,"y":-98.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
-      floating: 0
-      collapsed: 0
-      snapOffset: {x: -109, y: -98}
-<<<<<<< HEAD
-=======
       contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 25.333332}
->>>>>>> 703c733 (Levelpart1)
-=======
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
-      floating: 0
-      collapsed: 0
-      snapOffset: {x: 24, y: 25.333332}
->>>>>>> 703c733 (Levelpart1)
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -2352,10 +944,6 @@ MonoBehaviour:
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
-=======
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
->>>>>>> 6ba163e (blocking barage + zone 1)
       layout: 4
       size: {x: 0, y: 0}
       sizeOverridden: 0
@@ -2386,95 +974,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -164.86626, y: 6.9725037, z: 6.8183384}
+    m_Target: {x: 21.54258, y: 10.9932995, z: -121.373604}
     speed: 2
-    m_Value: {x: -164.86626, y: 6.9725037, z: 6.8183384}
-=======
-    m_Target: {x: 72.721054, y: -159.93402, z: -110.0561}
-    speed: 2
-    m_Value: {x: 72.721054, y: -159.93402, z: -110.0561}
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_Target: {x: 103.032486, y: -66.55315, z: -103.1628}
-    speed: 2
-    m_Value: {x: 103.032486, y: -66.55315, z: -103.1628}
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> origin/dev
-    m_Target: {x: -15.154634, y: -15.381203, z: -22.305412}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
->>>>>>> cb809dc (montagne)
-=======
-    m_Target: {x: -15.154634, y: -15.381203, z: -22.305412}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
-=======
-    m_Target: {x: -15.154634, y: -15.381203, z: -22.305412}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: -15.154634, y: -15.381203, z: -22.305412}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: 77.41733, y: -108.34567, z: -116.08222}
-    speed: 2
-    m_Value: {x: 77.41733, y: -108.34567, z: -116.08222}
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: 58.446312, y: 5.5, z: -144.27293}
-    speed: 2
-    m_Value: {x: 58.446312, y: 5.5, z: -144.27293}
->>>>>>> 703c733 (Levelpart1)
-=======
-    m_Target: {x: 72.721054, y: -159.93402, z: -110.0561}
-    speed: 2
-    m_Value: {x: 72.721054, y: -159.93402, z: -110.0561}
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_Target: {x: 103.032486, y: -66.55315, z: -103.1628}
-    speed: 2
-    m_Value: {x: 103.032486, y: -66.55315, z: -103.1628}
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    m_Target: {x: -15.154634, y: -15.381203, z: -22.305412}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
->>>>>>> cb809dc (montagne)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: 58.446312, y: 5.5, z: -144.27293}
-    speed: 2
-    m_Value: {x: 58.446312, y: 5.5, z: -144.27293}
->>>>>>> 703c733 (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: -164.86626, y: 6.9725037, z: 6.8183384}
-    speed: 2
-    m_Value: {x: -164.86626, y: 6.9725037, z: 6.8183384}
->>>>>>> 6ba163e (blocking barage + zone 1)
+    m_Value: {x: 21.54258, y: 10.9932995, z: -121.373604}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2520,153 +1022,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -0.016993178, y: 0.93727064, z: -0.34511772, w: -0.046150092}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: 0.11449744, y: -0.6193414, z: 0.09184666, w: 0.77134514}
->>>>>>> origin/dev
+    m_Target: {x: -0.2030483, y: 0.5618355, z: -0.14491467, w: -0.78932583}
     speed: 2
-    m_Value: {x: -0.11449744, y: 0.6193414, z: -0.09184666, w: -0.77134514}
+    m_Value: {x: -0.2030483, y: 0.5618355, z: -0.14491467, w: -0.7893258}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 174.80698
-=======
-    m_Target: 67.47838
->>>>>>> origin/dev
+    m_Target: 284.34427
     speed: 2
-    m_Value: 67.47838
-=======
-    m_Target: {x: 0.010506383, y: 0.90963984, z: -0.4147681, w: 0.02301606}
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    m_Target: {x: -0.016993178, y: 0.93727064, z: -0.34511772, w: -0.046150092}
->>>>>>> cb809dc (montagne)
-=======
-    m_Target: {x: 0.17304571, y: 0.82818073, z: -0.17614023, w: 0.5218651}
->>>>>>> 703c733 (Levelpart1)
-    speed: 2
-    m_Value: {x: 0.17304571, y: 0.82818073, z: -0.17614023, w: 0.5218651}
-  m_Size:
-    m_Target: 33.73711
-    speed: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Value: 192.97488
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_Target: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
-    speed: 2
-    m_Value: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
-  m_Size:
-    m_Target: 136.09264
-    speed: 2
-    m_Value: 136.09264
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    m_Value: 10
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-=======
-=======
-    m_Target: {x: -0.03897454, y: 0.9530664, z: -0.25533077, w: -0.18594153}
-    speed: 2
-    m_Value: {x: -0.03878836, y: 0.9485137, z: -0.25411108, w: -0.1850533}
-  m_Size:
-    m_Target: 149.19441
-    speed: 2
-    m_Value: 149.19441
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Value: 33.73711
->>>>>>> 703c733 (Levelpart1)
-=======
-    m_Target: {x: 0.010506383, y: 0.90963984, z: -0.4147681, w: 0.02301606}
-    speed: 2
-    m_Value: {x: 0.010506383, y: 0.90963984, z: -0.4147681, w: 0.023016062}
-  m_Size:
-    m_Target: 192.97488
-    speed: 2
-    m_Value: 192.97488
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_Target: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
-    speed: 2
-    m_Value: {x: -0.011585679, y: 0.93232554, z: -0.36584917, w: -0.038138025}
-  m_Size:
-    m_Target: 136.09264
-    speed: 2
-    m_Value: 136.09264
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    m_Target: {x: -0.016993178, y: 0.93727064, z: -0.34511772, w: -0.046150092}
-    speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_Size:
-    m_Target: 174.80698
-    speed: 2
-    m_Value: 10
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: -0.03897454, y: 0.9530664, z: -0.25533077, w: -0.18594153}
-    speed: 2
-    m_Value: {x: -0.03878836, y: 0.9485137, z: -0.25411108, w: -0.1850533}
-  m_Size:
-    m_Target: 149.19441
-    speed: 2
-    m_Value: 149.19441
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: 0.17304571, y: 0.82818073, z: -0.17614023, w: 0.5218651}
-    speed: 2
-    m_Value: {x: 0.17304571, y: 0.82818073, z: -0.17614023, w: 0.5218651}
-  m_Size:
-    m_Target: 33.73711
-    speed: 2
-    m_Value: 33.73711
->>>>>>> 703c733 (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_Target: {x: 0.11449744, y: -0.6193414, z: 0.09184666, w: 0.77134514}
-    speed: 2
-    m_Value: {x: -0.11449744, y: 0.6193414, z: -0.09184666, w: -0.77134514}
-  m_Size:
-    m_Target: 67.47838
-    speed: 2
-    m_Value: 67.47838
->>>>>>> 6ba163e (blocking barage + zone 1)
+    m_Value: 284.34427
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 0.94053
-    m_SpeedNormalized: 0.47
+    m_Speed: 1.3603196
+    m_SpeedNormalized: 0.6799998
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -2706,7 +1075,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
@@ -2714,7 +1083,7 @@ MonoBehaviour:
     x: 322
     y: 78.66667
     width: 979.3334
-    height: 526.6667
+    height: 462.66666
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -2732,7 +1101,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 979.3334, y: 505.6667}
+  m_TargetSize: {x: 979.3334, y: 441.66666}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2747,81 +1116,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HBaseRangeMin: -326.44446
-    m_HBaseRangeMax: 326.44446
-    m_VBaseRangeMin: -168.55557
-    m_VBaseRangeMax: 168.55557
-=======
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
-=======
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
-    m_HBaseRangeMin: -489.6667
-    m_HBaseRangeMax: 489.6667
-    m_VBaseRangeMin: -220.83333
-    m_VBaseRangeMax: 220.83333
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
     m_HBaseRangeMin: -326.44446
     m_HBaseRangeMax: 326.44446
     m_VBaseRangeMin: -147.22223
     m_VBaseRangeMax: 147.22223
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
-=======
->>>>>>> a438430 (Hugo accès branche)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
->>>>>>> f1c0772 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2840,9 +1138,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 979.3334
-      height: 505.6667
+      height: 441.66666
     m_Scale: {x: 1.5, y: 1.5}
-    m_Translation: {x: 489.6667, y: 252.83331}
+    m_Translation: {x: 489.6667, y: 220.8333}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -2850,58 +1148,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -326.44446
-      y: -168.55554
+      y: -147.2222
       width: 652.8889
-      height: 337.1111
+      height: 294.44443
     m_MinimalGUI: 1
   m_defaultScale: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_LastWindowPixelSize: {x: 1469, y: 790}
-=======
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
->>>>>>> a438430 (Hugo accès branche)
-=======
   m_LastWindowPixelSize: {x: 1469, y: 694}
->>>>>>> 3c36f61 (Blocking part3)
-=======
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
->>>>>>> 6ba163e (blocking barage + zone 1)
-=======
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
->>>>>>> a438430 (Hugo accès branche)
-=======
-  m_LastWindowPixelSize: {x: 1469, y: 694}
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-  m_LastWindowPixelSize: {x: 1469, y: 694}
->>>>>>> 3c36f61 (Blocking part3)
->>>>>>> f1c0772 (Blocking part3)
-=======
-  m_LastWindowPixelSize: {x: 1469, y: 694}
->>>>>>> 3c36f61 (Blocking part3)
-=======
-  m_LastWindowPixelSize: {x: 979.3334, y: 462.66666}
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2924,131 +1176,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 704
-    width: 1465
-    height: 227
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    y: 827
-    width: 1546
-    height: 104
-=======
-    y: 512.6666
-    width: 1302.3334
-    height: 298.6667
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    y: 759
-    width: 1465
-    height: 227
->>>>>>> a438430 (Hugo accès branche)
-=======
-    y: 849.3334
-    width: 1228.3334
-    height: 171.33331
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    y: 704
-    width: 1465
-    height: 227
->>>>>>> cb809dc (montagne)
-=======
-    y: 704
-    width: 1465
-    height: 227
-=======
-    y: 704
-    width: 1465
-    height: 227
->>>>>>> 3c36f61 (Blocking part3)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    y: 593.3333
+    y: 758.6667
     width: 1291.6666
-    height: 372.6667
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 797.3333
-    width: 1291.6666
-    height: 168.66669
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    y: 512.6666
-    width: 1302.3334
-    height: 298.6667
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    y: 759
-    width: 1465
-    height: 227
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    y: 849.3334
-    width: 1228.3334
-    height: 171.33331
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    y: 704
-    width: 1465
-    height: 227
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    y: 797.3333
-    width: 1291.6666
-    height: 168.66669
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    y: 827
-    width: 1546
-    height: 104
->>>>>>> 6ba163e (blocking barage + zone 1)
+    height: 207.33331
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3071,23 +1207,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Assets/VEGETAUX/Arbre (parties)
-=======
-    - Assets/Scenes
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
     - Assets
->>>>>>> a438430 (Hugo accès branche)
-=======
-    - Assets
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    - Assets/Assets/VEGETAUX/Arbre (parties)
->>>>>>> 703c733 (Levelpart1)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -3097,172 +1217,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - Assets/Assets/VEGETAUX/Arbre (parties)
-  m_LastFoldersGridSize: -1
-<<<<<<< HEAD
-  m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
-=======
-  m_LastProjectPath: C:\Users\yumej\Documents\GitKraken\Deadly-Night
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-  - Assets/Scenes
-=======
-  - Assets
->>>>>>> a438430 (Hugo accès branche)
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
   - Assets
   m_LastFoldersGridSize: -1
-<<<<<<< HEAD
   m_LastProjectPath: C:\Users\yumej\Documents\GitKraken\Deadly-Night
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-  m_LastProjectPath: C:\Users\hugoc\Documents\Deadly-Night
->>>>>>> cb809dc (montagne)
->>>>>>> 173f29d (montagne)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: f0aa0000
-    m_LastClickedID: 43760
-    m_ExpandedIDs: 000000001cb60000
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: 70c60000
-    m_LastClickedID: 50800
-    m_ExpandedIDs: 0000000070c60000
-=======
-    m_SelectedIDs: 6ea60000
-    m_LastClickedID: 42606
-    m_ExpandedIDs: 00000000a4a40000
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    m_SelectedIDs: f6aa0000
-    m_LastClickedID: 43766
-    m_ExpandedIDs: 00000000f6aa0000
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_SelectedIDs: f2aa0000
-    m_LastClickedID: 43762
-    m_ExpandedIDs: 00000000a2b50000
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    m_SelectedIDs: f0aa0000
-    m_LastClickedID: 43760
-    m_ExpandedIDs: 000000001cb60000
->>>>>>> cb809dc (montagne)
-=======
-    m_SelectedIDs: f0aa0000
-    m_LastClickedID: 43760
-    m_ExpandedIDs: 000000001cb60000
-=======
-    m_SelectedIDs: f0aa0000
-    m_LastClickedID: 43760
-    m_ExpandedIDs: 000000001cb60000
->>>>>>> 3c36f61 (Blocking part3)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    m_SelectedIDs: a2b50000
-    m_LastClickedID: 46498
-    m_ExpandedIDs: 00000000f2b60000
->>>>>>> 3f99dd3 (Blocking part3)
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3c36f61 (Blocking part3)
-=======
-=======
-  - Assets/Assets/VEGETAUX/Arbre (parties)
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\yumej\Documents\GitKraken\Deadly-Night
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
->>>>>>> 703c733 (Levelpart1)
-    scrollPos: {x: 0, y: 27.333313}
-    m_SelectedIDs: 98632200
-    m_LastClickedID: 2253720
-    m_ExpandedIDs: 000000002eca000030ca000032ca0000
-<<<<<<< HEAD
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    m_SelectedIDs: 6ea60000
-    m_LastClickedID: 42606
-    m_ExpandedIDs: 00000000a4a40000
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    m_SelectedIDs: f6aa0000
-    m_LastClickedID: 43766
-    m_ExpandedIDs: 00000000f6aa0000
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    m_SelectedIDs: f2aa0000
-    m_LastClickedID: 43762
-    m_ExpandedIDs: 00000000a2b50000
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    m_SelectedIDs: f0aa0000
-    m_LastClickedID: 43760
-    m_ExpandedIDs: 000000001cb60000
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_SelectedIDs: 70c60000
-    m_LastClickedID: 50800
-    m_ExpandedIDs: 0000000070c60000
->>>>>>> 6ba163e (blocking barage + zone 1)
+    m_SelectedIDs: 92f10000
+    m_LastClickedID: 61842
+    m_ExpandedIDs: 0000000040d3000042d3000044d30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3291,92 +1255,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 000000001cb60000
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 0000000070c60000
-=======
-    m_ExpandedIDs: 00000000a4a40000
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    m_ExpandedIDs: 00000000f6aa0000
->>>>>>> a438430 (Hugo accès branche)
-=======
-    m_ExpandedIDs: 00000000a2b50000
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-    m_ExpandedIDs: 000000001cb60000
->>>>>>> cb809dc (montagne)
-=======
-    m_ExpandedIDs: 000000001cb60000
-=======
-    m_ExpandedIDs: 00000000f2b60000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_ExpandedIDs: 000000002eca000030ca000032ca0000
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
-    m_ExpandedIDs: 00000000a4a40000
->>>>>>> cbddfbd (Map avec le bro Jordan)
-<<<<<<< HEAD
->>>>>>> 3a3d3cc (Map avec le bro Jordan)
-=======
-=======
-    m_ExpandedIDs: 00000000f6aa0000
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    m_ExpandedIDs: 00000000a2b50000
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    m_ExpandedIDs: 000000001cb60000
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
-    m_ExpandedIDs: 000000001cb60000
-=======
-    m_ExpandedIDs: 00000000f2b60000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
-    m_ExpandedIDs: 000000002eca000030ca000032ca0000
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
-    m_ExpandedIDs: 00000000f2b60000
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
-    m_ExpandedIDs: 0000000070c60000
->>>>>>> 6ba163e (blocking barage + zone 1)
+    m_ExpandedIDs: 0000000040d3000042d3000044d30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3404,37 +1283,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_HadKeyboardFocusLastEvent: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> ad9b7e1 (Blocking part1)
-    m_SelectedInstanceIDs: 74aa0000
-    m_LastClickedInstanceID: 43636
     m_HadKeyboardFocusLastEvent: 1
->>>>>>> ad9b7e1 (Blocking part1)
-=======
->>>>>>> cb809dc (montagne)
-=======
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> 703c733 (Levelpart1)
-=======
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-    m_HadKeyboardFocusLastEvent: 0
->>>>>>> a438430 (Hugo accès branche)
-=======
->>>>>>> cb809dc (montagne)
-=======
-    m_HadKeyboardFocusLastEvent: 1
->>>>>>> 703c733 (Levelpart1)
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000040cc00002ad60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3479,145 +1329,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    x: 1548
-    y: 24
-    width: 372
-    height: 907
-=======
-=======
->>>>>>> cbddfbd (Map avec le bro Jordan)
-    x: 1304.3334
-    y: 24
-    width: 402.33325
-    height: 787.3333
->>>>>>> cbddfbd (Map avec le bro Jordan)
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
-    x: 1466
-    y: 79
-    width: 453
-    height: 907
-<<<<<<< HEAD
->>>>>>> a438430 (Hugo accès branche)
-=======
-    x: 1459.6666
-    y: 24
-    width: 247
-    height: 942
->>>>>>> ad9b7e1 (Blocking part1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
->>>>>>> f1c0772 (Blocking part3)
-=======
->>>>>>> 3c36f61 (Blocking part3)
-    x: 1467
-=======
-    x: 1548
->>>>>>> 6ba163e (blocking barage + zone 1)
-    y: 24
-    width: 372
-    height: 907
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> f1c0772 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> cb809dc (montagne)
-=======
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 703c733 (Levelpart1)
-=======
-=======
->>>>>>> 3c36f61 (Blocking part3)
     x: 1293.6666
     y: 24
     width: 413
     height: 942
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 703c733 (Levelpart1)
-<<<<<<< HEAD
->>>>>>> origin/dev
-=======
-=======
->>>>>>> a438430 (Hugo accès branche)
-<<<<<<< HEAD
->>>>>>> 9bc0865 (Hugo accès branche)
-=======
-=======
-    x: 1459.6666
-    y: 24
-    width: 247
-    height: 942
->>>>>>> ad9b7e1 (Blocking part1)
-<<<<<<< HEAD
->>>>>>> d32c249 (Blocking part1)
-=======
-=======
-    x: 1467
-    y: 24
-    width: 453
-    height: 907
->>>>>>> cb809dc (montagne)
-<<<<<<< HEAD
->>>>>>> 173f29d (montagne)
-=======
-=======
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-<<<<<<< HEAD
->>>>>>> f1c0772 (Blocking part3)
-=======
-=======
->>>>>>> 703c733 (Levelpart1)
->>>>>>> ce34b7d (Levelpart1)
-=======
->>>>>>> 3f99dd3 (Blocking part3)
->>>>>>> 3c36f61 (Blocking part3)
-=======
->>>>>>> 6ba163e (blocking barage + zone 1)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
