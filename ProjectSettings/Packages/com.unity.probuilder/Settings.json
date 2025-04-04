@@ -130,10 +130,14 @@
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cylinder",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "value": "{\"m_Value\":{\"x\":-0.29457470774650576,\"y\":17.981874465942384,\"z\":-1.7697200775146485}}"
 =======
                 "value": "{\"m_Value\":{\"x\":-2.793111801147461,\"y\":7.959640979766846,\"z\":-1.2589768171310425}}"
 >>>>>>> 3c36f61 (Blocking part3)
+=======
+                "value": "{\"m_Value\":{\"x\":-2.6930809020996095,\"y\":17.32550811767578,\"z\":-2.5590667724609377}}"
+>>>>>>> 703c733 (Levelpart1)
             },
             {
 <<<<<<< HEAD
