@@ -6,27 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="0a367a0f-342f-42b1-9549-06c8bacbac50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Examples/Networking/FishNet v4/ECM2_FishNet4_Examples.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Examples/Networking/Fusion v2/ECM2_Fusion2_Examples.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Examples/Networking/Mirror/ECM2 v1.4.1 Mirror Examples.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Examples/Networking/Netcode/ECM2 v1.4.1 Netcode Examples.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/CM Third Person Controller Example Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/CM Third Person Controller Example Scene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/AnimationController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/AnimationController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/CinemachineThirdPersonCharacter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/CinemachineThirdPersonCharacter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/CinemachineThirdPersonCharacterInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/9.2 - Third Person Character Controller/Scripts/CinemachineThirdPersonCharacterInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/9 - Cinemachine/Cinemachine_Examples.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/CinemachineThirdPersonCharacter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/CinemachineThirdPersonCharacter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PFA/DeadlyNight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PFA/DeadlyNight.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacterInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacterInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +30,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/DashingAbility/DashingAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/DashingAbility/DashingAbilityInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/NewMonoBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/PlayerMovement_WithCameraReference.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -118,6 +114,7 @@
       <workItem from="1743694891432" duration="19000" />
       <workItem from="1743695126487" duration="595000" />
       <workItem from="1743755149785" duration="61000" />
+      <workItem from="1744358969724" duration="6030000" />
     </task>
     <servers />
   </component>
