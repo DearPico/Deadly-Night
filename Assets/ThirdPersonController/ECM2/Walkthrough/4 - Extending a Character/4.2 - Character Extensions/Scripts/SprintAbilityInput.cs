@@ -7,7 +7,7 @@ namespace ECM2.Walkthrough.Ex42
     /// Extends CharacterInput adding support to handle the Sprint Ability.
     /// </summary>
     
-    public class SprintAbilityInput : CharacterInput
+    public class SprintAbilityInput : Examples.CharacterInput
     {
         // The Sprint Ability
         

@@ -7,7 +7,7 @@ namespace ECM2.Walkthrough.Ex41
     /// Extends CharacterInput adding support for Sprint InputAction.
     /// </summary>
     
-    public class SprintableCharacterInput : CharacterInput
+    public class SprintableCharacterInput : Examples.CharacterInput
     {
         private SprintableCharacter _sprintableCharacter;
         

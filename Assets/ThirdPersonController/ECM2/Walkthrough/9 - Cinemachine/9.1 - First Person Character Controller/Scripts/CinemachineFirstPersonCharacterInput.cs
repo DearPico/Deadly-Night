@@ -9,7 +9,7 @@ namespace ECM2.Walkthrough.Ex91
     /// Extends the default CharacterInput component adding support for typical first person controls with Cinemachine.
     /// </summary>
     
-    public class CinemachineFirstPersonCharacterInput : CharacterInput
+    public class CinemachineFirstPersonCharacterInput : Examples.CharacterInput
     {
         [Space(15.0f)]
         public bool invertLook = true;

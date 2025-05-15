@@ -1,17 +1,15 @@
-using ECM2;
 using ECM2.Examples;
-using ECM2.Walkthrough.Ex92;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace MoveTheBest
+namespace ECM2.Walkthrough.Ex92
 {
     /// <summary>
     /// Cinemachine Third Person Character Input.
     /// Extends the default CharacterInput component adding support for typical third person controls with Cinemachine.
     /// </summary>
     
-    public class CinemachineThirdPersonCharacterInput : CharacterInput
+    public class CinemachineThirdPersonCharacterInput : Examples.CharacterInput
     {
         [Space(15.0f)]
         public bool invertLook = true;
