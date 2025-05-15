@@ -1,7 +1,7 @@
 using ECM2.Examples;
 using UnityEngine.InputSystem;
 
-namespace ECM2.Walkthrough.Ex43
+namespace MoveTheBest
 {
     /// <summary>
     /// Extends CharacterInput adding support to handle Dash mechanic.

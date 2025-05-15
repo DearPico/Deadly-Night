@@ -97,5 +97,10 @@ namespace ECM2.Walkthrough.Ex92
         {
             UpdateCamera();
         }
+
+        public void SetMovement(Vector3 dashDirection)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

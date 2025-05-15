@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using ECM2;
+using UnityEngine;
 
-namespace ECM2.Walkthrough.Ex92
+namespace MoveTheBest
 {
     /// <summary>
     /// This example shows how to animate a Character,

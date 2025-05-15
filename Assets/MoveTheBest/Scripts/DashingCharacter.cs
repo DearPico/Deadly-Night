@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using ECM2;
+using UnityEngine;
 
-namespace ECM2.Walkthrough.Ex43
+namespace MoveTheBest
 {
     /// <summary>
     /// This example shows how to extend a Character (through inheritance) adding a custom movement mode;

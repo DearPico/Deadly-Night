@@ -1210,6 +1210,8 @@ namespace ECM2
 
         public CollisionResponseCallback collisionResponseCallback { get; set; }
 
+        public bool isSprinting { get; set; }
+
         #endregion
 
         #region EVENTS

@@ -1,8 +1,10 @@
+using ECM2;
 using ECM2.Examples;
+using ECM2.Walkthrough.Ex92;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace ECM2.Walkthrough.Ex92
+namespace MoveTheBest
 {
     /// <summary>
     /// Cinemachine Third Person Character Input.
