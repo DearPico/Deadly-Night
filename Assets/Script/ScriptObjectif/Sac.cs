@@ -1,31 +1,71 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class Sac : MonoBehaviour
 {
 
-    public Sprite[] sprites;
+    [SerializeField]
+    private Gradient gradient;
+
+    public GameObject modelBase;
+    public GameObject modelSac;
+    public GameObject modelChien;
+
+
+    public Image sacados;
+    public Image chien;
+
     private bool sacCheck = false;
+    private bool chienCheck = false;
+
+
+    void Start()
+    {
+    }
 
     void Update()
     {
+        if (sacCheck)
+        {
+            sacados.color = gradient.Evaluate(1);
+            ModelSwapSac();
 
+        }
+
+        if (chienCheck)
+        {
+            chien.color = gradient.Evaluate(1);
+            ModelSwapChien();
+        }
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Sac")) // Vérifie si l'objet touché est un missile
+        if (other.CompareTag("Sac"))
         {
-            ChangeSprite();
-            Destroy(other.gameObject); // Détruit le missile après collision
+            Destroy(other.gameObject);
             sacCheck = true;
         }
-    }
 
-
-    void ChangeSprite()
-    {
-        if (sacCheck) 
+        if (other.CompareTag("Chien"))
         {
-       //     spriteRenderer.sprite = newSprite; // Change le sprite
+            Destroy(other.gameObject);
+            chienCheck = true;
+
         }
     }
+
+    void ModelSwapSac()
+    {
+        modelBase.gameObject.SetActive(false);
+        modelSac.gameObject.SetActive(true);
+    }
+
+    void ModelSwapChien()
+    {
+        modelSac.gameObject.SetActive(false);
+        modelChien.gameObject.SetActive(true);
+    }
 }
+
