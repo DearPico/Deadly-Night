@@ -1,0 +1,75 @@
+using UnityEngine;
+using UnityEngine.Events;
+
+public class DayNightCycleController : MonoBehaviour
+{
+    private float currentDayTime;
+    private bool hasSkippedNight = false;
+    private float initialNightDuration;
+
+    [Header("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")]
+    [SerializeField, Range(0, 120)]
+    private float dayDuration;
+    [SerializeField, Range(0, 120)]
+    private float nightDuration;
+    [SerializeField]
+    private UnityEvent onDayBegins, onNightBegins;
+    [SerializeField]
+    private UnityEvent<DayNightCycleController> onUpdate;
+
+    void Start()
+    {
+        currentDayTime = 0;
+        initialNightDuration = nightDuration;
+        onDayBegins.Invoke();
+    }
+
+    void Update()
+    {
+        bool wasNight = IsNight();
+        currentDayTime += Time.deltaTime;
+
+        if (currentDayTime >= dayDuration + nightDuration)
+        {
+            currentDayTime = 0;
+            nightDuration = initialNightDuration;
+            hasSkippedNight = false;              
+        }
+
+        if (wasNight != IsNight())
+        {
+            if (wasNight)
+            {
+                onDayBegins.Invoke();
+            }
+            else
+            {
+                onNightBegins.Invoke();
+                nightDuration = initialNightDuration; 
+                hasSkippedNight = false;
+            }
+        }
+
+        onUpdate.Invoke(this);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && IsNight() && !hasSkippedNight)
+        {
+            currentDayTime = dayDuration + nightDuration; 
+            hasSkippedNight = true;
+        }
+    }
+
+    public bool IsNight() => currentDayTime >= dayDuration;
+
+    public float GetNightProgress()
+    {
+        if (!IsNight()) return 0;
+        return (currentDayTime - dayDuration) / nightDuration;
+    }
+
+    public float GetDayProgress()
+    {
+        if (IsNight()) return 0;
+        return currentDayTime / dayDuration;
+    }
+}
