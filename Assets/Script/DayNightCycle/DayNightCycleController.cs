@@ -12,6 +12,9 @@ public class DayNightCycleController : MonoBehaviour
     private float dayDuration;
     [SerializeField, Range(0, 120)]
     private float nightDuration;
+
+    [SerializeField]
+    public ChangementDeSkinEtUI planqueDetector;
     [SerializeField]
     private UnityEvent onDayBegins, onNightBegins;
     [SerializeField]
@@ -24,7 +27,8 @@ public class DayNightCycleController : MonoBehaviour
         onDayBegins.Invoke();
     }
 
-    void Update()
+
+        void Update()
     {
         bool wasNight = IsNight();
         currentDayTime += Time.deltaTime;
@@ -51,10 +55,11 @@ public class DayNightCycleController : MonoBehaviour
         }
 
         onUpdate.Invoke(this);
+        
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && IsNight() && !hasSkippedNight)
+        if (planqueDetector.IsInPlanque && IsNight() && !hasSkippedNight)
         {
-            currentDayTime = dayDuration + nightDuration; 
+            currentDayTime = dayDuration + nightDuration;
             hasSkippedNight = true;
         }
     }
