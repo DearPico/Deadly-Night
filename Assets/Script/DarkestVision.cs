@@ -25,7 +25,7 @@ public class DarkestVision : MonoBehaviour
 
         float t = Mathf.Clamp01(1 - (closestDistance / maxDistance));
         Color color = darkOverlay.color;
-        color.a = Mathf.Lerp(0f, 0.7f, t);  
+        color.a = Mathf.Lerp(0f, 1f, t);  
         darkOverlay.color = color;
     }
 }
