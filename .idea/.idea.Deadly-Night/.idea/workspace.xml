@@ -6,20 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0a367a0f-342f-42b1-9549-06c8bacbac50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/InputSystem_Actions.inputactions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/CinemachineThirdPersonCharacter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/CinemachineThirdPersonCharacter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PFA/DeadlyNight.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PFA/DeadlyNight.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Shared Assets/Input Actions/InputSystem_Actions.inputactions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacterInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ThirdPersonController/ECM2/Walkthrough/4 - Extending a Character/4.3 - Custom Movement Mode/Scripts/DashingCharacterInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Batiment/planque.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Batiment/planque.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Pixel vue.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Pixel vue.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/concrete_black.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/concrete_black.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/grand_tube_palette.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/grand_tube_palette.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain 5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jeu_8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jeu_8.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Hugo&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Hugo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/BuildMOVE\Deadly Night.exe" />
@@ -123,6 +122,10 @@
       <workItem from="1743755149785" duration="61000" />
       <workItem from="1744358969724" duration="6030000" />
       <workItem from="1744894817118" duration="2000" />
+      <workItem from="1747893485745" duration="285000" />
+      <workItem from="1747931902493" duration="358000" />
+      <workItem from="1748010332392" duration="16000" />
+      <workItem from="1748260116102" duration="8060000" />
     </task>
     <servers />
   </component>

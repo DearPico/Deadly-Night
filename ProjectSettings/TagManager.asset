@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Sac
   - Chien
+  - liere_grimpant
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
