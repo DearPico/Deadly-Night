@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Assets/Batiment/planque(1).fbx.meta
-guid: bb5222f1c658d354cad1d78953685625
-========
-guid: bc49d31756fa04d4aae736d97605c7a7
->>>>>>>> dev:Assets/Assets/assets extérieur/planque (1).fbx.meta
+guid: f2b25889547e9de4ead1f2a87c28de8e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []

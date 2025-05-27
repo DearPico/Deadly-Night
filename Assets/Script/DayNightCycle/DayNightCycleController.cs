@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+
 
 public class DayNightCycleController : MonoBehaviour
 {
@@ -12,6 +14,9 @@ public class DayNightCycleController : MonoBehaviour
     private float dayDuration;
     [SerializeField, Range(0, 120)]
     private float nightDuration;
+
+    [SerializeField]
+    public ChangementDeSkinEtUI planqueDetector;
     [SerializeField]
     private UnityEvent onDayBegins, onNightBegins;
     [SerializeField]
@@ -24,6 +29,7 @@ public class DayNightCycleController : MonoBehaviour
         onDayBegins.Invoke();
     }
 
+
     void Update()
     {
         bool wasNight = IsNight();
@@ -33,7 +39,7 @@ public class DayNightCycleController : MonoBehaviour
         {
             currentDayTime = 0;
             nightDuration = initialNightDuration;
-            hasSkippedNight = false;              
+            hasSkippedNight = false;
         }
 
         if (wasNight != IsNight())
@@ -45,18 +51,31 @@ public class DayNightCycleController : MonoBehaviour
             else
             {
                 onNightBegins.Invoke();
-                nightDuration = initialNightDuration; 
+                nightDuration = initialNightDuration;
                 hasSkippedNight = false;
             }
         }
 
         onUpdate.Invoke(this);
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && IsNight() && !hasSkippedNight)
+
+        if (planqueDetector.IsInPlanque && IsNight() && !hasSkippedNight)
         {
-            currentDayTime = dayDuration + nightDuration; 
+            currentDayTime = dayDuration + nightDuration;
             hasSkippedNight = true;
         }
+
+
+        if (currentDayTime >= dayDuration + nightDuration)
+        {
+            // Lancer la scène suivante avant de réinitialiser le cycle
+            SceneManager.LoadScene("Death"); // Remplace par le vrai nom de la scène
+
+            currentDayTime = 0;
+            nightDuration = initialNightDuration;
+            hasSkippedNight = false;
+        }
+
     }
 
     public bool IsNight() => currentDayTime >= dayDuration;
