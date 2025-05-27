@@ -2,93 +2,95 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-
 public class DayNightCycleController : MonoBehaviour
 {
     private float currentDayTime;
     private bool hasSkippedNight = false;
     private float initialNightDuration;
 
-    [Header("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")]
+    [Header("- - - Cycle Settings - - -")]
     [SerializeField, Range(0, 120)]
-    private float dayDuration;
-    [SerializeField, Range(0, 120)]
-    private float nightDuration;
+    private float dayDuration = 30f;
 
+    [SerializeField, Range(0, 120)]
+    private float nightDuration = 30f;
+
+    [Header("- - - Dependencies - - -")]
     [SerializeField]
     public ChangementDeSkinEtUI planqueDetector;
+
+    [Header("- - - Events - - -")]
     [SerializeField]
     private UnityEvent onDayBegins, onNightBegins;
+
     [SerializeField]
     private UnityEvent<DayNightCycleController> onUpdate;
 
     void Start()
     {
-        currentDayTime = 0;
+        currentDayTime = 0f;
         initialNightDuration = nightDuration;
         onDayBegins.Invoke();
+        Debug.Log("[DayNightCycle] Début du jour");
     }
-
 
     void Update()
     {
-        bool wasNight = IsNight();
         currentDayTime += Time.deltaTime;
+        bool wasNight = IsNight();
+        bool isNowNight = IsNight();
 
-        if (currentDayTime >= dayDuration + nightDuration)
+        if (wasNight != isNowNight)
         {
-            currentDayTime = 0;
-            nightDuration = initialNightDuration;
-            hasSkippedNight = false;
-        }
-
-        if (wasNight != IsNight())
-        {
-            if (wasNight)
+            if (isNowNight)
             {
-                onDayBegins.Invoke();
+                onNightBegins.Invoke();
+                hasSkippedNight = false;
+                nightDuration = initialNightDuration;
+               
             }
             else
             {
-                onNightBegins.Invoke();
-                nightDuration = initialNightDuration;
-                hasSkippedNight = false;
+                onDayBegins.Invoke();
+               
             }
         }
 
         onUpdate.Invoke(this);
 
-
-        if (planqueDetector.IsInPlanque && IsNight() && !hasSkippedNight)
+        if (planqueDetector != null && planqueDetector.IsInPlanque && isNowNight && !hasSkippedNight)
         {
             currentDayTime = dayDuration + nightDuration;
             hasSkippedNight = true;
         }
 
-
         if (currentDayTime >= dayDuration + nightDuration)
         {
-            // Lancer la scène suivante avant de réinitialiser le cycle
-            SceneManager.LoadScene("Death"); // Remplace par le vrai nom de la scène
-
-            currentDayTime = 0;
+            if (!hasSkippedNight)
+            {
+                SceneManager.LoadScene("Death");
+                return;
+            }
+            
+            currentDayTime = 0f;
             nightDuration = initialNightDuration;
             hasSkippedNight = false;
         }
-
     }
 
     public bool IsNight() => currentDayTime >= dayDuration;
 
     public float GetNightProgress()
     {
-        if (!IsNight()) return 0;
+        if (!IsNight()) return 0f;
         return (currentDayTime - dayDuration) / nightDuration;
     }
 
     public float GetDayProgress()
     {
-        if (IsNight()) return 0;
+        if (IsNight()) return 0f;
         return currentDayTime / dayDuration;
     }
+
+    public bool HasSkippedNight => hasSkippedNight;
 }
