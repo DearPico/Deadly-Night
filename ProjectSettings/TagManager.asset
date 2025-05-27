@@ -8,6 +8,7 @@ TagManager:
   - Chien
   - Planque
   - Monster
+  - PlayerSpawn
   layers:
   - Default
   - TransparentFX
