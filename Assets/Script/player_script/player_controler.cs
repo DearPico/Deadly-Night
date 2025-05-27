@@ -94,7 +94,8 @@ public class player_controller : MonoBehaviour
             StartCoroutine(TemporaryDashBoost());
         if (dashCooldownTimer > 0f)
             dashCooldownTimer -= Time.deltaTime;
-                                                // DERAPAGE part 1
+
+        #region Derapage
         bool leftClick = Input.GetMouseButton(0);
         bool rightClick = Input.GetMouseButton(1);
         
@@ -146,6 +147,7 @@ public class player_controller : MonoBehaviour
         {
             driftingTime = 0;
         }
+        #endregion                                        // DERAPAGE part 1
         
         if (Input.GetKeyDown(KeyCode.Q) && !isSimulatingCombo && canMove && !isSliding)
         {
@@ -161,7 +163,7 @@ public class player_controller : MonoBehaviour
 
             StartCoroutine(CrouchThenSlideCombo());
         }
-                                                // DASH
+        #region Dash 
         if (Input.GetKeyDown(KeyCode.E) && !isDashing && canMove && dashCooldownTimer <= 0f)
         {
             isDashing = true;
@@ -181,7 +183,11 @@ public class player_controller : MonoBehaviour
             if (!characterController.isGrounded && currentJumpCount == 1)
                 hasDoubleJumpDashBoost = true;
         }
-                                                // COMPORTEMENT perso lors du SLIDE
+        #endregion                                        
+
+        #region comportement perso Slide
+
+        
         if (isSliding)
         {
             Vector3 forwardDir = Vector3.Scale(playerCamera.transform.forward, new Vector3(1, 0, 1)).normalized;
@@ -199,12 +205,25 @@ public class player_controller : MonoBehaviour
             moveDirection = horizontalVelocity + Vector3.up * verticalVelocity;
 
             CollisionFlags flags = characterController.Move(moveDirection * Time.deltaTime);
+            
+            // ROTATION DU PERSONNAGE VERS LA DIRECTION DU MOUVEMENT
+            Vector3 lookDirection = new Vector3(moveDirection.x, 0, moveDirection.z);
+            if (lookDirection.sqrMagnitude > 0.001f)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 1f);
+            }
             if ((flags & CollisionFlags.Below) != 0 || (flags & CollisionFlags.Sides) != 0)
                 isSliding = false;
 
             return;
         }
-                                                // COMPORTEMENT perso lors du DASH
+
+        #endregion
+
+        #region Comportement perso DASH
+
+        
         if (isDashing)
         {
             dashTimer -= Time.deltaTime;
@@ -214,7 +233,12 @@ public class player_controller : MonoBehaviour
             characterController.Move(moveDirection * Time.deltaTime);
             return;
         }
-                                                // ACCROUPISSEMENT
+
+        #endregion
+
+        #region Crouch
+
+        
         bool isCrouching = (Input.GetKey(KeyCode.LeftControl) || isCrouchingSimulated) && !isSliding;
         float targetSpeed = walkSpeed;
         
@@ -229,6 +253,8 @@ public class player_controller : MonoBehaviour
             targetSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
         }
 
+        #endregion                                        
+
         if (currentBonusSpeedTime > 0)
         {
             currentBonusSpeedTime -= Time.deltaTime;
@@ -241,7 +267,10 @@ public class player_controller : MonoBehaviour
         float inputZ = Input.GetAxis("Vertical");
         float moveY = moveDirection.y;
         moveDirection = (forward * inputZ + right * inputX2).normalized * currentSpeed;
-                                                // ESCALADE ou pas ESCALADE tel est la question
+        // ESCALADE ou pas ESCALADE tel est la question
+
+        #region Climb
+
         if (isClimbing)
         {
             float climbInput = Input.GetAxis("Vertical");
@@ -249,7 +278,12 @@ public class player_controller : MonoBehaviour
             currentJumpCount = 0;
             hasJumpBoostedSinceLastGrounded = false;
         }
-                                                // SAUT
+        
+
+        #endregion
+
+        #region Saut
+
         else
         {
             if (characterController.isGrounded)
@@ -282,9 +316,11 @@ public class player_controller : MonoBehaviour
             if (!characterController.isGrounded)
                 moveDirection.y -= gravity * Time.deltaTime;
         }
+        
+
+        #endregion
 
         characterController.Move(moveDirection * Time.deltaTime);
-        
         bool isMoving = Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f;
         float targetFOV = Input.GetKey(KeyCode.LeftShift) && !isCrouching && isMoving ? runFOV : normalFOV;
         playerOrbitCamera.Lens.FieldOfView = Mathf.Lerp(playerOrbitCamera.Lens.FieldOfView, targetFOV, Time.deltaTime * fovTransitionSpeed);
@@ -442,4 +478,5 @@ public class player_controller : MonoBehaviour
             isClimbing = false;
         }
     }
+    
 }
