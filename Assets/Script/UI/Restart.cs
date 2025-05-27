@@ -9,7 +9,7 @@ public class Restart : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space)) 
         {
-            SceneManager.LoadScene("jeu_7");
+            SceneManager.LoadScene("jeu_8");
         }
     }
 }
