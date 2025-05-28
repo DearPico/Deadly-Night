@@ -7,7 +7,9 @@
     <list default="true" id="0a367a0f-342f-42b1-9549-06c8bacbac50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water Material.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/jeu_8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jeu_8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +119,7 @@
       <workItem from="1748010332392" duration="16000" />
       <workItem from="1748260116102" duration="8060000" />
       <workItem from="1748332570077" duration="4653000" />
+      <workItem from="1748417016693" duration="749000" />
     </task>
     <servers />
   </component>

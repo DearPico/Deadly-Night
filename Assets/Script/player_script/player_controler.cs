@@ -10,12 +10,12 @@ public class player_controller : MonoBehaviour
     [SerializeField] private CinemachineCamera playerOrbitCamera;
 
     [Header("Ground stats")]
-    public float walkSpeed = 5f;
-    public float runSpeed = 12f;
-    public float dashSpeed = 25f;
-    public float dashDuration = 0.2f;
-    public float dashCooldown = 1.5f;
-    public float accelerationTime = 1.25f;
+    public float walkSpeed = 5f; // vitesse MARCHE
+    public float runSpeed = 15f;// vitesse COURSE
+    public float dashSpeed = 40f; // vitesse DASH
+    public float dashDuration = 0.2f;// durée DASH
+    public float dashCooldown = 1.5f; // TEMPS avant de POUVOIR DASH
+    public float accelerationTime = 1.25f; // TEMPS acceleration COURSE
 
     [Header("Air stats")]
     [SerializeField, Tooltip("puissance SAUT")] private float jumpPower = 7.5f;
@@ -30,15 +30,14 @@ public class player_controller : MonoBehaviour
     [SerializeField, Range(1, 720)] private float driftTurnSpeed;
     [SerializeField, Range(0, 10)] private float driftSideSpeed;
     [SerializeField, Range(0, 20)] private float driftBonusSpeed;
-    [SerializeField, Range(0f, 1f)] private float driftBoostMultiplier = 0.65f;
-
+    
     [Header("Crouch")]
     public float crouchHeight = 1.2f;
-    public float crouchSpeed = 3f;
-    public float climbSpeed = 5f;
+    public float crouchSpeed = 3f; // Vitesse ACCROUPI
+    public float climbSpeed = 5f; // vitesse ESCALADE liane grimpante
 
-    public float runFOV = 45f;
-    public float fovTransitionSpeed = 3f;
+    public float runFOV = 80f; 
+    public float fovTransitionSpeed = 3f; // temps transition de la FOV
 
     private float dashCooldownTimer = 0f;
     private float currentSpeed = 0f;
@@ -70,8 +69,6 @@ public class player_controller : MonoBehaviour
     private float driftingTime;
     private float currentBonusSpeedTime;
 
-    private bool hasGivenDriftBonus = false;
-
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -85,7 +82,7 @@ public class player_controller : MonoBehaviour
     void Update()
     {
         float inputZForSlide = Input.GetAxis("Vertical");
-        float inputXForSlide = Input.GetAxis("Horizontal");
+        float inputXForSlide = Input.GetAxis("Horizontal"); // SLIDE part 1
 
         Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, transform.up).normalized;
         Vector3 right = Vector3.ProjectOnPlane(playerCamera.transform.right, transform.up).normalized;
@@ -102,6 +99,9 @@ public class player_controller : MonoBehaviour
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
         int nextTurnDirection = 0;
+
+        if (!leftClick && !rightClick && driftingTime >= driftDuration)
+            SetBonusSpeed(2, driftBonusSpeed);
 
         if (isRunning && characterController.isGrounded)
         {
@@ -192,7 +192,7 @@ public class player_controller : MonoBehaviour
         }
         #endregion
 
-        #region Slide
+        #region comportement perso Slide
         if (isSliding)
         {
             Vector3 forwardDir = Vector3.Scale(playerCamera.transform.forward, new Vector3(1, 0, 1)).normalized;
@@ -218,7 +218,7 @@ public class player_controller : MonoBehaviour
         }
         #endregion
 
-        #region Dash
+        #region Comportement perso DASH
         if (isDashing)
         {
             dashTimer -= Time.deltaTime;
@@ -269,7 +269,7 @@ public class player_controller : MonoBehaviour
         }
         #endregion
 
-        #region Jump
+        #region Saut
         else
         {
             if (characterController.isGrounded)
@@ -306,7 +306,7 @@ public class player_controller : MonoBehaviour
                
         }
         #endregion
-
+    
         characterController.Move(moveDirection * Time.deltaTime);
 
         bool isMoving = Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f;

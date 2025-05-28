@@ -13,7 +13,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -96,14 +96,14 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depht: 6.55
-    - _DephtFallOff: 4.93
+    - _Depht: 4
+    - _DephtFallOff: 1
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FoamShoreWidht: 0.92
+    - _FoamShoreWidht: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -125,9 +125,9 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
-    - _MainColor: {r: 0, g: 0.13879633, b: 1, a: 0}
-    - _ShoreColor: {r: 0.4141153, g: 0.5671727, b: 0.8867924, a: 0}
+    - _FoamColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 0}
+    - _MainColor: {r: 0.24705882, g: 0.26593283, b: 0.8117647, a: 0}
+    - _ShoreColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
