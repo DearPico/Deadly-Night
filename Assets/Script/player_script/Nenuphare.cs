@@ -18,6 +18,8 @@ public class Nenuphare : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             shouldDrown = true;
+            Debug.Log("devrait couler");
+           
         }
     }
 
