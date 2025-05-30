@@ -207,26 +207,39 @@ public class player_controller : MonoBehaviour
         #region Slide
         if (isSliding)
         {
-            characterController.height = .5f;
-            characterController.center = new Vector3(0, -.55f, 0);
+            // Taille plus petite pour le slide
+            characterController.height = 0.5f;
+            characterController.center = new Vector3(0, -0.55f, 0);
+
+            // Direction de slide calculée à partir de la caméra
             Vector3 forwardDir = Vector3.Scale(playerCamera.transform.forward, new Vector3(1, 0, 1)).normalized;
             Vector3 rightDir = Vector3.Scale(playerCamera.transform.right, new Vector3(1, 0, 1)).normalized;
 
             float inputX = Input.GetAxis("Horizontal");
-            Vector3 slideDirection = forwardDir + rightDir * inputX;
-            slideDirection = slideDirection.normalized;
+            Vector3 slideDirection = (forwardDir + rightDir * inputX).normalized;
 
-            Vector3 horizontalVelocity = slideDirection * dashSpeed;
+            // Calcul du mouvement horizontal
+            float currentSlideSpeed = dashSpeed * slideSpeedMultiplier * targetSpeed;
+    
+            // Clamp pour éviter les valeurs trop hautes (anti-bug)
+            currentSlideSpeed = Mathf.Min(currentSlideSpeed, 20f); // ← tu peux ajuster ce max
+
+            Vector3 horizontalVelocity = slideDirection * currentSlideSpeed;
+
+            // Gestion de la gravité
             float verticalVelocity = moveDirection.y;
             if (!characterController.isGrounded)
                 verticalVelocity -= gravity * Time.deltaTime;
+            else
+                verticalVelocity = -1f; // évite de rebondir en restant grounded
 
+            // Applique le mouvement final
             moveDirection = horizontalVelocity + Vector3.up * verticalVelocity;
+            characterController.Move(moveDirection * Time.deltaTime);
 
-            CollisionFlags flags = characterController.Move(moveDirection * (Time.deltaTime * slideSpeedMultiplier * targetSpeed));
-
-            //if ((flags & CollisionFlags.Below) != 0 || (flags & CollisionFlags.Sides) != 0)
-                //isSliding = false;
+            // Optionnel : sortir du slide si plus de vitesse ou collision
+            if (horizontalVelocity.magnitude < 1f || (characterController.collisionFlags & CollisionFlags.Sides) != 0)
+                isSliding = false;
 
             return;
         }
@@ -351,8 +364,12 @@ public class player_controller : MonoBehaviour
             if (!characterController.isGrounded)
             {
                 Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, Vector3.up).normalized;
-                dashDirection = (forward + Vector3.down).normalized;
+                dashDirection = forward;
+
+                // Ajoute une légère inclinaison vers le sol pour forcer l’atterrissage, mais sans excès
+                dashDirection = Quaternion.AngleAxis(15f, playerCamera.transform.right) * dashDirection;
             }
+
             else
             {
                 dashDirection = playerCamera.transform.forward;
