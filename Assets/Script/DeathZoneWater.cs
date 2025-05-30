@@ -1,18 +1,33 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
 
 public class DeathZoneWater : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject playerSpawn;
-    
+    public Transform player;
+    public Transform playerSpawn;
+
+    void Start()
+    {
+
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
-        if (collision.CompareTag("Player"))
+        CharacterController cc = player.GetComponent<CharacterController>();
+        if (cc != null)
         {
-            player.transform.position = playerSpawn.transform.position;
-            Debug.Log("Player mort"); 
+            cc.enabled = false;
+            player.position = playerSpawn.position;
+            cc.enabled = true;
+        }
+        else
+        {
+            player.position = playerSpawn.position;
         }
     }
 }
