@@ -362,7 +362,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Height: 2
@@ -418,17 +418,17 @@ MonoBehaviour:
   maxJumpCount: 2
   defaultHeight: 2
   driftDuration: 1
-  driftTurnSpeed: 360
-  driftSideSpeed: 1
-  driftBonusSpeed: 10
-  driftBoostMultiplier: 0.65
+  driftTurnSpeed: 168
+  driftSideSpeed: 2.29
+  driftBonusSpeed: 1
+  driftBoostMultiplier: 0.075
   crouchHeight: 1.2
   crouchSpeed: 3
   climbSpeed: 5
   runFOV: 80
   fovTransitionSpeed: 3
   driftDirection: 0
-  slideSpeedMultiplier: 0
+  slideSpeedMultiplier: 0.142
 --- !u!114 &9642174557016945
 MonoBehaviour:
   m_ObjectHideFlags: 0
