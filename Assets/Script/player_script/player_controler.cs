@@ -8,22 +8,20 @@ public class player_controller : MonoBehaviour
 {
     [SerializeField] private Camera playerCamera;
     [SerializeField] private CinemachineCamera playerOrbitCamera;
-    
+
     [Header("Ground stats")]
-    public float walkSpeed = 5f; // vitesse MARCHE
-    public float runSpeed = 15f;// vitesse COURSE
-    public float dashSpeed = 40f; // vitesse DASH
-    public float dashDuration = 0.2f;// durée DASH
-    public float dashCooldown = 1.5f; // TEMPS avant de POUVOIR DASH
-    public float accelerationTime = 1.25f; // TEMPS acceleration COURSE
-    
-    
-    
+    public float walkSpeed = 5f;
+    public float runSpeed = 12f;
+    public float dashSpeed = 25f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1.5f;
+    public float accelerationTime = 1.25f;
+
     [Header("Air stats")]
-    [SerializeField, Tooltip("puissance SAUT")] private float jumpPower = 10f; 
+    [SerializeField, Tooltip("puissance SAUT")] private float jumpPower = 7.5f;
     [SerializeField, Tooltip("Gravité")] private float gravity = 15f;
     [SerializeField, Tooltip("nombre MAX de Saut")] private int maxJumpCount = 2;
-   
+
     [Header("Collider")]
     public float defaultHeight = 2f;
 
@@ -32,14 +30,16 @@ public class player_controller : MonoBehaviour
     [SerializeField, Range(1, 720)] private float driftTurnSpeed;
     [SerializeField, Range(0, 10)] private float driftSideSpeed;
     [SerializeField, Range(0, 20)] private float driftBonusSpeed;
+    [SerializeField, Range(0f, 1f)] private float driftBoostMultiplier = 0.65f;
+
     [Header("Crouch")]
     public float crouchHeight = 1.2f;
-    public float crouchSpeed = 3f; // Vitesse ACCROUPI
-    public float climbSpeed = 5f; // vitesse ESCALADE liane grimpante
-   
-    public float runFOV = 80f; 
-    public float fovTransitionSpeed = 3f; // temps transition de la FOV
-    
+    public float crouchSpeed = 3f;
+    public float climbSpeed = 5f;
+
+    public float runFOV = 45f;
+    public float fovTransitionSpeed = 3f;
+
     private float dashCooldownTimer = 0f;
     private float currentSpeed = 0f;
     private bool isDashing = false;
@@ -62,15 +62,16 @@ public class player_controller : MonoBehaviour
     private bool isRunSpeedBoosted = false;
     private bool hasDoubleJumpDashBoost = false;
 
-    public int driftDirection; // 0 = aucun
+    public int driftDirection;
     private bool isSlideSpeedBoosted = false;
     private int lastDirection;
-
 
     private float currentBonusSpeed;
     private float driftingTime;
     private float currentBonusSpeedTime;
-    
+
+    private bool hasGivenDriftBonus = false;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -84,28 +85,24 @@ public class player_controller : MonoBehaviour
     void Update()
     {
         float inputZForSlide = Input.GetAxis("Vertical");
-        float inputXForSlide = Input.GetAxis("Horizontal");                        // SLIDE part 1
-        
+        float inputXForSlide = Input.GetAxis("Horizontal");
+
         Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, transform.up).normalized;
         Vector3 right = Vector3.ProjectOnPlane(playerCamera.transform.right, transform.up).normalized;
-        
-        
+
         if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.Q) && !isDashSpeedBoosted)
             StartCoroutine(TemporaryDashBoost());
+
         if (dashCooldownTimer > 0f)
             dashCooldownTimer -= Time.deltaTime;
 
         #region Derapage
         bool leftClick = Input.GetMouseButton(0);
         bool rightClick = Input.GetMouseButton(1);
-        
-        bool isRunning = Input.GetKey(KeyCode.LeftShift);
 
+        bool isRunning = Input.GetKey(KeyCode.LeftShift);
         int nextTurnDirection = 0;
 
-        if (!leftClick && !rightClick && driftingTime >= driftDuration)
-            SetBonusSpeed(2, driftBonusSpeed);
-        
         if (isRunning && characterController.isGrounded)
         {
             switch (driftDirection)
@@ -114,30 +111,41 @@ public class player_controller : MonoBehaviour
                 case -1 when !leftClick:
                     nextTurnDirection = 0;
                     driftingTime = 0;
+                    hasGivenDriftBonus = false;
                     break;
+
                 case 0 when rightClick:
                     nextTurnDirection = 1;
                     driftingTime = 0;
+                    if (!hasGivenDriftBonus)
+                    {
+                        SetBonusSpeed(2, driftBonusSpeed * driftBoostMultiplier);
+                        hasGivenDriftBonus = true;
+                    }
                     break;
+
                 case 0 when leftClick:
                     nextTurnDirection = -1;
                     driftingTime = 0;
+                    if (!hasGivenDriftBonus)
+                    {
+                        SetBonusSpeed(2, driftBonusSpeed * driftBoostMultiplier);
+                        hasGivenDriftBonus = true;
+                    }
                     break;
+
                 default:
                     nextTurnDirection = driftDirection;
                     break;
             }
         }
-        
+
         driftDirection = nextTurnDirection;
-        
+
         if (driftDirection != 0)
         {
-            float duration = driftDuration;
-
             driftingTime += Time.deltaTime;
-
-            if (driftingTime < duration)
+            if (driftingTime < driftDuration)
             {
                 transform.rotation *= Quaternion.Euler(0, driftTurnSpeed * Time.deltaTime * driftDirection, 0);
                 characterController.Move(transform.right * (driftDirection * driftSideSpeed * Time.deltaTime));
@@ -147,14 +155,12 @@ public class player_controller : MonoBehaviour
         {
             driftingTime = 0;
         }
-        #endregion                                        // DERAPAGE part 1
-        
+        #endregion
+
         if (Input.GetKeyDown(KeyCode.Q) && !isSimulatingCombo && canMove && !isSliding)
         {
             if (Mathf.Abs(inputXForSlide) < 0.01f && Mathf.Abs(inputZForSlide) < 0.01f)
-            {
                 return;
-            }
 
             if (!characterController.isGrounded && currentJumpCount > 0)
                 slideAfterJumpDetected = true;
@@ -163,7 +169,8 @@ public class player_controller : MonoBehaviour
 
             StartCoroutine(CrouchThenSlideCombo());
         }
-        #region Dash 
+
+        #region Dash
         if (Input.GetKeyDown(KeyCode.E) && !isDashing && canMove && dashCooldownTimer <= 0f)
         {
             isDashing = true;
@@ -183,11 +190,9 @@ public class player_controller : MonoBehaviour
             if (!characterController.isGrounded && currentJumpCount == 1)
                 hasDoubleJumpDashBoost = true;
         }
-        #endregion                                        
+        #endregion
 
-        #region comportement perso Slide
-
-        
+        #region Slide
         if (isSliding)
         {
             Vector3 forwardDir = Vector3.Scale(playerCamera.transform.forward, new Vector3(1, 0, 1)).normalized;
@@ -205,25 +210,15 @@ public class player_controller : MonoBehaviour
             moveDirection = horizontalVelocity + Vector3.up * verticalVelocity;
 
             CollisionFlags flags = characterController.Move(moveDirection * Time.deltaTime);
-            
-            // ROTATION DU PERSONNAGE VERS LA DIRECTION DU MOUVEMENT
-            Vector3 lookDirection = new Vector3(moveDirection.x, 0, moveDirection.z);
-            if (lookDirection.sqrMagnitude > 0.001f)
-            {
-                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 1f);
-            }
+
             if ((flags & CollisionFlags.Below) != 0 || (flags & CollisionFlags.Sides) != 0)
                 isSliding = false;
 
             return;
         }
-
         #endregion
 
-        #region Comportement perso DASH
-
-        
+        #region Dash
         if (isDashing)
         {
             dashTimer -= Time.deltaTime;
@@ -233,27 +228,23 @@ public class player_controller : MonoBehaviour
             characterController.Move(moveDirection * Time.deltaTime);
             return;
         }
-
         #endregion
 
         #region Crouch
-
-        
         bool isCrouching = (Input.GetKey(KeyCode.LeftControl) || isCrouchingSimulated) && !isSliding;
         float targetSpeed = walkSpeed;
-        
+
         if (isCrouching)
         {
-            characterController.height = crouchHeight;
             targetSpeed = crouchSpeed;
+            transform.localScale = new Vector3(1f, 0.55f, 1f);
         }
         else
         {
-            characterController.height = defaultHeight;
             targetSpeed = Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed;
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
-
-        #endregion                                        
+        #endregion
 
         if (currentBonusSpeedTime > 0)
         {
@@ -261,16 +252,14 @@ public class player_controller : MonoBehaviour
             targetSpeed += currentBonusSpeed;
         }
 
-        currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, Time.deltaTime * (targetSpeed / accelerationTime)); // vitesse augmentation graduelle
+        currentSpeed = Mathf.MoveTowards(currentSpeed, targetSpeed, Time.deltaTime * (targetSpeed / accelerationTime));
 
         float inputX2 = Input.GetAxis("Horizontal");
         float inputZ = Input.GetAxis("Vertical");
         float moveY = moveDirection.y;
         moveDirection = (forward * inputZ + right * inputX2).normalized * currentSpeed;
-        // ESCALADE ou pas ESCALADE tel est la question
 
         #region Climb
-
         if (isClimbing)
         {
             float climbInput = Input.GetAxis("Vertical");
@@ -278,19 +267,16 @@ public class player_controller : MonoBehaviour
             currentJumpCount = 0;
             hasJumpBoostedSinceLastGrounded = false;
         }
-        
-
         #endregion
 
-        #region Saut
-
+        #region Jump
         else
         {
             if (characterController.isGrounded)
             {
                 if (slideAfterJumpDetected && !isRunSpeedBoosted)
                     StartCoroutine(TemporaryRunSpeedBoost());
-                
+
                 slideAfterJumpDetected = false;
                 currentJumpCount = 0;
                 hasJumpBoostedSinceLastGrounded = false;
@@ -314,41 +300,18 @@ public class player_controller : MonoBehaviour
             }
 
             if (!characterController.isGrounded)
+            {
                 moveDirection.y -= gravity * Time.deltaTime;
+            }
+               
         }
-        
-
         #endregion
 
         characterController.Move(moveDirection * Time.deltaTime);
+
         bool isMoving = Mathf.Abs(Input.GetAxis("Horizontal")) > 0.1f || Mathf.Abs(Input.GetAxis("Vertical")) > 0.1f;
         float targetFOV = Input.GetKey(KeyCode.LeftShift) && !isCrouching && isMoving ? runFOV : normalFOV;
         playerOrbitCamera.Lens.FieldOfView = Mathf.Lerp(playerOrbitCamera.Lens.FieldOfView, targetFOV, Time.deltaTime * fovTransitionSpeed);
-        
-        /*
-        // CAMERA movement
-        if (canMove)
-        {
-            rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
-            rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
-            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-
-            float mouseY = Input.GetAxis("Mouse X") * lookSpeed;
-            transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y + mouseY, 0);
-        }
-
-
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
-        if (Mathf.Abs(scroll) > 0.01f)
-        {
-            Vector3 localPos = playerCamera.transform.localPosition;
-            localPos.z += scroll * zoomSpeed;
-            localPos.z = Mathf.Clamp(localPos.z, -maxCameraDistance, -minCameraDistance);
-            playerCamera.transform.localPosition = localPos;
-        }
-
-        HandleCameraCollision();
-        */
     }
 
     private void SetBonusSpeed(float time, float bonusSpeed)
@@ -357,36 +320,6 @@ public class player_controller : MonoBehaviour
         currentBonusSpeed = bonusSpeed;
     }
 
-    /*
-    // CAMERA collision (toc)
-    private void HandleCameraCollision()
-    {
-        Vector3 cameraOrigin = transform.position + Vector3.up * defaultHeight;
-        Vector3 desiredCameraWorldPos = playerCamera.transform.parent.TransformPoint(playerCamera.transform.localPosition);
-        Vector3 direction = desiredCameraWorldPos - cameraOrigin;
-        float desiredDistance = direction.magnitude;
-        direction.Normalize();
-
-        RaycastHit hit;
-        if (Physics.Raycast(cameraOrigin, direction, out hit, desiredDistance))
-        {
-            float collisionOffset = 0.1f;
-            float correctedDistance = hit.distance - collisionOffset;
-            correctedDistance = Mathf.Clamp(correctedDistance, minCameraDistance, maxCameraDistance);
-
-            Vector3 newLocalPos = playerCamera.transform.localPosition;
-            newLocalPos.z = -correctedDistance;
-            playerCamera.transform.localPosition = newLocalPos;
-        }
-        else
-        {
-            Vector3 newLocalPos = playerCamera.transform.localPosition;
-            newLocalPos.z = Mathf.Clamp(newLocalPos.z, -maxCameraDistance, -minCameraDistance);
-            playerCamera.transform.localPosition = newLocalPos;
-        }
-    }
-    */
-    // SLIDE part 2
     private IEnumerator CrouchThenSlideCombo()
     {
         isSimulatingCombo = true;
@@ -399,9 +332,19 @@ public class player_controller : MonoBehaviour
             isSliding = true;
             dashCooldownTimer = dashCooldown;
 
-            Vector3 dashDirection = playerCamera.transform.forward;
-            dashDirection = Quaternion.AngleAxis(15f, playerCamera.transform.right) * dashDirection;
-            dashDirection.Normalize();
+            Vector3 dashDirection;
+
+            if (!characterController.isGrounded)
+            {
+                Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, Vector3.up).normalized;
+                dashDirection = (forward + Vector3.down).normalized;
+            }
+            else
+            {
+                dashDirection = playerCamera.transform.forward;
+                dashDirection = Quaternion.AngleAxis(15f, playerCamera.transform.right) * dashDirection;
+                dashDirection.Normalize();
+            }
 
             moveDirection = dashDirection * dashSpeed;
         }
@@ -411,18 +354,21 @@ public class player_controller : MonoBehaviour
         if (!Input.GetKey(KeyCode.LeftControl))
             isCrouchingSimulated = false;
 
+        // Remettre la taille normale après le slide
+        transform.localScale = new Vector3(1f, 1f, 1f);
+
         isSimulatingCombo = false;
     }
-                                                // BOOST DASH (vooosh)
+
     private IEnumerator TemporaryDashBoost()
     {
         isDashSpeedBoosted = true;
-        dashSpeed += 25f;
+        dashSpeed += 7f;
         yield return new WaitForSeconds(1f);
-        dashSpeed -= 25f;
+        dashSpeed -= 7f;
         isDashSpeedBoosted = false;
     }
-                                                // BOOST JUMP (boingggg)
+
     private IEnumerator TemporaryJumpBoost()
     {
         isJumpPowerBoosted = true;
@@ -431,38 +377,37 @@ public class player_controller : MonoBehaviour
         jumpPower -= 5f;
         isJumpPowerBoosted = false;
     }
-                                                // BOOST DASH combo 
+
     private IEnumerator TemporaryDashComboBoost()
     {
         isDashSpeedBoosted = true;
-        dashSpeed += 25f;
+        dashSpeed += 15f;
         yield return new WaitForSeconds(0.5f);
-        dashSpeed -= 25f;
+        dashSpeed -= 15f;
         isDashSpeedBoosted = false;
     }
-                                                // BOOST SPEED 
+
     private IEnumerator TemporaryRunSpeedBoost()
     {
         isRunSpeedBoosted = true;
-        runSpeed += 10f;
-        yield return new WaitForSeconds(3f);
-        runSpeed -= 10f;
+        runSpeed += 5.5f;
+        yield return new WaitForSeconds(5f);
+        runSpeed -= 5.5f;
         isRunSpeedBoosted = false;
     }
-                                                // BOOST SLIDE
+
     private IEnumerator TemporarySlideSpeedBoost()
     {
         if (isSlideSpeedBoosted)
             yield break;
 
         isSlideSpeedBoosted = true;
-        runSpeed += 3.5f;
-        yield return new WaitForSeconds(7f);
-        runSpeed -= 3.5f;
+        runSpeed += 1f;
+        yield return new WaitForSeconds(3.5f);
+        runSpeed -= 1f;
         isSlideSpeedBoosted = false;
     }
-                             
-                                                // LIERRE GRIMPANT 
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("liere_grimpant"))
@@ -471,6 +416,7 @@ public class player_controller : MonoBehaviour
             moveDirection = Vector3.zero;
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("liere_grimpant"))
@@ -478,5 +424,4 @@ public class player_controller : MonoBehaviour
             isClimbing = false;
         }
     }
-    
 }
