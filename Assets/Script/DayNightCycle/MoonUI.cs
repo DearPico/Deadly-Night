@@ -11,7 +11,7 @@ public class MoonUI : MonoBehaviour
     public void OnDayBegins()
     {
         
-        moonFillImage.enabled = false;
+       // moonFillImage.enabled = false;
 
     }
 

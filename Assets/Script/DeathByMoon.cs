@@ -5,9 +5,9 @@ public class DeathByMoon : MonoBehaviour
 {
 
     [SerializeField]
-     private DayNightCycleController controller;
+    private DayNightCycleController controller;
     [SerializeField]
-     private bool hasTriggeredDeath = false;
+    private bool hasTriggeredDeath = false;
     public void OnDayBegins()
     {
         hasTriggeredDeath = false;
@@ -15,17 +15,22 @@ public class DeathByMoon : MonoBehaviour
 
     public void OnNightBegins()
     {
-       
+
     }
 
     public void OnCycleUpdate(DayNightCycleController controller)
     {
-       
+
         if (controller.IsNight() && controller.GetNightProgress() >= 1f && !controller.HasSkippedNight && !hasTriggeredDeath)
         {
             hasTriggeredDeath = true;
+
             Debug.Log("devrait etre MORT");
-            SceneManager.LoadScene("Death"); 
+
+            SceneManager.LoadScene("Death");
+
+            FindObjectOfType<Chronometre>().StopChronoAndWin();
+
         }
     }
 }

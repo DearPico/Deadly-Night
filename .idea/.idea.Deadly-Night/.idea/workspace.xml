@@ -6,71 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="0a367a0f-342f-42b1-9549-06c8bacbac50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 1.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 1.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 10.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 10.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 11.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 11.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 2.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 2.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 3.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 3.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 4.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 4.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 5.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 5.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 6.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 6.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 7.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 7.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 8.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 8.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 9.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb 9.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Autre/Montagne_touteb.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.001.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.001.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.003.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.003.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.004.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.004.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.005.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.005.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.006.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.006.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.008.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.008.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.009.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.009.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.010.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.010.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.011.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.011.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.012.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.012.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.013.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.013.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.014.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.014.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.017.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.017.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.018.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.018.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.019.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.019.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.020.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.020.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.021.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.021.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.022.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.022.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.023.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.023.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.024.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.024.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.025.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.025.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.026.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.026.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.027.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.027.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.028.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.028.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.029.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.029.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.030.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.030.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.031.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.031.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.032.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.032.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.033.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.033.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.034.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.034.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.035.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.035.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.036.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.036.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.037.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.037.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.038.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.038.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.039.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.039.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.040.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.040.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.041.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.041.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.042.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/assets extérieur/Materials/planque (1)-Material.042.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/player_script/Nenuphare.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/player_script/Nenuphare.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/La_Boisson_du_Demon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/La_Boisson_du_Demon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Paradis_du_Vert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Paradis_du_Vert.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Toutou_Propre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Toutou_Propre.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Les_Petits_Shinobis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Les_Petits_Shinobis.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/La_Boisson_du_Demon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/La_Boisson_du_Demon.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Paradis_du_Vert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Paradis_du_Vert.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Toutou_Propre.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Toutou_Propre.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Les_Petits_Shinobis.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Les_Petits_Shinobis.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain 5.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain 6.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DayNightCycle/Moon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DayNightCycle/Moon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DayNightCycle/MoonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DayNightCycle/MoonUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DeathByMoon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DeathByMoon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/jeu_8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jeu_8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/Hugo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/Hugo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +39,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/DashingAbility/DashingAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MoveTheBest/Scripts/Scripts/DashingAbility/DashingAbilityInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ScriptObjectif/Chrono.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/VictoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81/Shaders/Terrain/TerrainLit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -183,6 +141,13 @@
       <workItem from="1748417016693" duration="749000" />
       <workItem from="1748421926942" duration="625000" />
       <workItem from="1748434087825" duration="2469000" />
+      <workItem from="1748442193964" duration="997000" />
+      <workItem from="1748448921009" duration="1781000" />
+      <workItem from="1748450846518" duration="11337000" />
+      <workItem from="1748512887685" duration="620000" />
+      <workItem from="1748532909973" duration="320000" />
+      <workItem from="1748534080253" duration="1517000" />
+      <workItem from="1748591774504" duration="1930000" />
     </task>
     <servers />
   </component>

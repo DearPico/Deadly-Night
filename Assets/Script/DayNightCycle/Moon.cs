@@ -21,7 +21,7 @@ public class Moon : MonoBehaviour
 
     public void OnDayBegins()
     {
-        spriteRenderer.enabled = false;
+      //  spriteRenderer.enabled = false;
     }
 
     public void OnNightBegins()
