@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Cinemachine;
 using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
 
 [RequireComponent(typeof(CharacterController))]
 public class player_controller : MonoBehaviour
@@ -71,6 +72,11 @@ public class player_controller : MonoBehaviour
     private float currentBonusSpeedTime;
 
     private bool hasGivenDriftBonus = false;
+    
+    [Header("Slide"), Range(0, 1)]
+    [SerializeField] private float slideSpeedMultiplier;
+
+    private float targetSpeed;
 
     void Start()
     {
@@ -87,6 +93,12 @@ public class player_controller : MonoBehaviour
         float inputZForSlide = Input.GetAxis("Vertical");
         float inputXForSlide = Input.GetAxis("Horizontal");
 
+        if (!isSliding)
+        {
+            characterController.height = defaultHeight;
+            characterController.center = new Vector3(0f, 0, 0f);
+        }
+        
         Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, transform.up).normalized;
         Vector3 right = Vector3.ProjectOnPlane(playerCamera.transform.right, transform.up).normalized;
 
@@ -157,7 +169,7 @@ public class player_controller : MonoBehaviour
         }
         #endregion
 
-        if (Input.GetKeyDown(KeyCode.Q) && !isSimulatingCombo && canMove && !isSliding)
+        if (Input.GetKeyDown(KeyCode.Q) && canMove && !isSliding)
         {
             if (Mathf.Abs(inputXForSlide) < 0.01f && Mathf.Abs(inputZForSlide) < 0.01f)
                 return;
@@ -195,6 +207,8 @@ public class player_controller : MonoBehaviour
         #region Slide
         if (isSliding)
         {
+            characterController.height = .5f;
+            characterController.center = new Vector3(0, -.55f, 0);
             Vector3 forwardDir = Vector3.Scale(playerCamera.transform.forward, new Vector3(1, 0, 1)).normalized;
             Vector3 rightDir = Vector3.Scale(playerCamera.transform.right, new Vector3(1, 0, 1)).normalized;
 
@@ -209,10 +223,10 @@ public class player_controller : MonoBehaviour
 
             moveDirection = horizontalVelocity + Vector3.up * verticalVelocity;
 
-            CollisionFlags flags = characterController.Move(moveDirection * Time.deltaTime);
+            CollisionFlags flags = characterController.Move(moveDirection * (Time.deltaTime * slideSpeedMultiplier * targetSpeed));
 
-            if ((flags & CollisionFlags.Below) != 0 || (flags & CollisionFlags.Sides) != 0)
-                isSliding = false;
+            //if ((flags & CollisionFlags.Below) != 0 || (flags & CollisionFlags.Sides) != 0)
+                //isSliding = false;
 
             return;
         }
@@ -232,12 +246,12 @@ public class player_controller : MonoBehaviour
 
         #region Crouch
         bool isCrouching = (Input.GetKey(KeyCode.LeftControl) || isCrouchingSimulated) && !isSliding;
-        float targetSpeed = walkSpeed;
+        targetSpeed = walkSpeed;
 
         if (isCrouching)
         {
-            targetSpeed = crouchSpeed;
-            transform.localScale = new Vector3(1f, 0.55f, 1f);
+            //targetSpeed = crouchSpeed;
+            //transform.localScale = new Vector3(1f, 0.55f, 1f);
         }
         else
         {
@@ -324,7 +338,7 @@ public class player_controller : MonoBehaviour
     {
         isSimulatingCombo = true;
         isCrouchingSimulated = true;
-
+        
         yield return new WaitForSeconds(0.2f);
 
         if (!isSliding && dashCooldownTimer <= 0f)
@@ -333,7 +347,7 @@ public class player_controller : MonoBehaviour
             dashCooldownTimer = dashCooldown;
 
             Vector3 dashDirection;
-
+            
             if (!characterController.isGrounded)
             {
                 Vector3 forward = Vector3.ProjectOnPlane(playerCamera.transform.forward, Vector3.up).normalized;
@@ -347,6 +361,12 @@ public class player_controller : MonoBehaviour
             }
 
             moveDirection = dashDirection * dashSpeed;
+
+            if (isSliding)
+            {
+                yield return new WaitForSeconds(1.5f);
+                isSliding = false;
+            }
         }
 
         yield return new WaitForSeconds(0.7f);
