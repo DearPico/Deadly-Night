@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a367a0f-342f-42b1-9549-06c8bacbac50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Deadly-Night/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/La_Boisson_du_Demon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/La_Boisson_du_Demon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Paradis_du_Vert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Paradis_du_Vert.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Toutou_Propre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Le_Toutou_Propre.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Les_Petits_Shinobis.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Les_Petits_Shinobis.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/La_Boisson_du_Demon.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/La_Boisson_du_Demon.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Paradis_du_Vert.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Paradis_du_Vert.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Toutou_Propre.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Le_Toutou_Propre.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Les_Petits_Shinobis.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Material/Materials/Les_Petits_Shinobis.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain 6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DayNightCycle/Moon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DayNightCycle/Moon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DayNightCycle/MoonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DayNightCycle/MoonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DeathByMoon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DeathByMoon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/DeathZoneWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/DeathZoneWater.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/player_script/player_controler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/jeu_8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/jeu_8.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
@@ -148,6 +131,7 @@
       <workItem from="1748532909973" duration="320000" />
       <workItem from="1748534080253" duration="1517000" />
       <workItem from="1748591774504" duration="1930000" />
+      <workItem from="1748606185841" duration="5850000" />
     </task>
     <servers />
   </component>

@@ -7,6 +7,8 @@ using UnityEngine.InputSystem.LowLevel;
 [RequireComponent(typeof(CharacterController))]
 public class player_controller : MonoBehaviour
 {
+    public CharacterController Controller => characterController;
+    
     [SerializeField] private Camera playerCamera;
     [SerializeField] private CinemachineCamera playerOrbitCamera;
 
